@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../MCPServers/Crestron MCP"
+		},
+		{
+			"path": "../_CH5-Svelte525"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../MCPServers/CrestronBrain MCP/generated-contracts"
+		},
+		{
+			"path": "../MCPServers/CrestronBrain MCP"
+		}
+	],
+	"settings": {}
+}

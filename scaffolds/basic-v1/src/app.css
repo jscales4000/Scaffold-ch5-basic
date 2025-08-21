@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import shadowbox styles */
+@import './lib/styles/shadowbox.css';
+
+/* Embed Segoe UI font for cross-environment consistency */
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'), local('SegoeUI'),
+       url('/fonts/segoe-ui/SegoeUI.woff2') format('woff2'),
+       url('/fonts/segoe-ui/SegoeUI.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
+       url('/fonts/segoe-ui/SegoeUI-Bold.woff2') format('woff2'),
+       url('/fonts/segoe-ui/SegoeUI-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Base font size for TS-770 (16.8px, bumped by 5% from 16px) */
+  font-size: 16.8px;
+  /* Scale factor for TS-1070 (1920/1280 = 1.5) */
+  --scale-factor: 1;
+  font-family: 'Segoe UI', 'SegoeUI', Arial, sans-serif;
+  
+  /* UA Brand Theme */
+  --color-primary: #0A1C3A;
+  --color-secondary: #0C234B;
+  --color-accent: #AB0520;
+  --color-accent-hover: #8B0015;
+  --color-surface: #10192b;
+  --color-surface-alt: #16284d;
+  --color-on-primary: #fff;
+  --color-on-secondary: #fff;
+  --color-on-accent: #fff;
+  --color-muted: #4467a8;
+  --color-divider: rgba(255,255,255,0.08);
+  
+  /* Shadow box styling */
+  --shadowbox-bg: #0A1C3A;
+  --shadowbox-border: 1px solid rgba(255,255,255,0.1);
+  --shadowbox-radius: 0.75rem;
+  --shadowbox-shadow: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -2px rgba(0,0,0,0.2), inset 0 2px 4px rgba(255,255,255,0.1), 0 0 0 1px rgba(255,255,255,0.1);
+
+  color-scheme: dark;
+  color: var(--color-muted);
+  background-color: var(--color-surface);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* For TS-1070 (1920x1200) */
+@media (min-width: 1600px) {
+  :root {
+    --scale-factor: 1.5; /* 1920/1280 = 1.5 */
+  }
+}
+
+/* Full gradient overlay with smooth animation */
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    #AB0520,
+    #8B0015,
+    #0C234B,
+    #0A1C38,
+    #0C234B,
+    #8B0015,
+    #AB0520
+  );
+  background-size: 400% 400%;
+  animation: gradientFlow 15s ease infinite;
+  opacity: 0.95;
+  z-index: 0;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Utility class for shadow box components */
+.shadowbox {
+  background: var(--shadowbox-bg);
+  border: var(--shadowbox-border);
+  border-radius: var(--shadowbox-radius);
+  box-shadow: var(--shadowbox-shadow);
+}
+
+/* Optimize text for better readability and increase font size globally */
+body, p, span, div, h1, h2, h3, h4, h5, h6, button, label, input, textarea, li, a {
+  font-size: 1.1em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

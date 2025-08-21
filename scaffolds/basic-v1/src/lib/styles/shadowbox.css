@@ -1,0 +1,86 @@
+/* Shadowbox styling utility for consistent component appearance
+ * This provides standardized styling for all shadowbox components
+ * with wider horizontal layout to accommodate more controls without scrolling
+ */
+
+.shadowbox {
+  /* Standard shadowbox styling from preferences */
+  background-color: rgba(12, 35, 73, 1);
+  box-shadow: 
+    0 10px 15px -3px rgba(0, 0, 0, 0.3), 
+    0 4px 6px -2px rgba(0, 0, 0, 0.2), 
+    inset 0 2px 4px rgba(255, 255, 255, 0.1), 
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  border: none !important;
+  border-radius: 0.75rem;
+  
+  /* Wider horizontal layout */
+  padding: 0 !important;
+  max-width: 899px;
+  margin: 1rem;
+  
+  /* Prevent scrolling */
+  overflow: hidden;
+  color: white;
+}
+
+/* Modifier for source control panels */
+.shadowbox-source-control {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  min-height: 300px;
+}
+
+/* Wider grid for components with more controls */
+.shadowbox-wide-grid {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+/* For components that need extra space */
+.shadowbox-extra-wide {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+/* Target the source-control-container directly */
+:global(.source-control-container) {
+  box-sizing: border-box;
+  padding: 3;
+}
+
+/* Remove shadow from main control area */
+.content-area {
+  box-shadow: none !important;
+}
+
+/* Ensure display area has no shadow */
+.display-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  min-height: 0;
+  position: relative;
+  box-shadow: none !important;
+}
+
+/* Media query for TS-1070 larger screens */
+@media (min-width: 1600px) {
+  .shadowbox {
+    padding: 1.5rem;
+  }
+  
+  .shadowbox-source-control {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    min-height: 400px;
+  }
+  
+  .shadowbox-wide-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .shadowbox-extra-wide {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}

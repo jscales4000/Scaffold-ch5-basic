@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+ch5z/
+*.ch5z
+panel.zip
+
+# Development files
+.vscode/
+.idea/
+*.log
+*.tgz
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Crestron specific
+Temp-Debug/
+logs/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Editor backup files
+*~
+*.swp
+*.swo
