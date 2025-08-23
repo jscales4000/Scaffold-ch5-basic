@@ -1,0 +1,147 @@
+{
+	"Errors": [],
+	"id": "_sveltetp001",
+	"name": "SvelteScaffoldTouchPanel",
+	"description": "Touch panel contract for Svelte scaffold",
+	"company": "Your Company",
+	"client": "Touch Panel Project",
+	"author": "Contract Generator",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_sveltetp001",
+			"id": "_spec001svelte",
+			"componentId": "_comp001svelte",
+			"instanceName": "TouchPanelController",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_sveltetp001",
+			"id": "_comp001svelte",
+			"name": "TouchPanelController",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "SelectSource",
+					"siblingId": "_fb001svelte",
+					"dataType": 2,
+					"notes": "Source selection (1-6)",
+					"id": "_cmd001svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "VolumeUp",
+					"siblingId": "",
+					"dataType": 1,
+					"notes": "Volume up button",
+					"id": "_cmd002svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "VolumeDown",
+					"siblingId": "",
+					"dataType": 1,
+					"notes": "Volume down button",
+					"id": "_cmd003svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "MuteToggle",
+					"siblingId": "_fb002svelte",
+					"dataType": 1,
+					"notes": "Audio mute toggle",
+					"id": "_cmd004svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "PowerButton",
+					"siblingId": "_fb003svelte",
+					"dataType": 1,
+					"notes": "System power",
+					"id": "_cmd005svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "HelpButton",
+					"siblingId": "",
+					"dataType": 1,
+					"notes": "Help button",
+					"id": "_cmd006svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "SettingsButton",
+					"siblingId": "",
+					"dataType": 1,
+					"notes": "Settings button",
+					"id": "_cmd007svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "SelectedSource",
+					"siblingId": "_cmd001svelte",
+					"dataType": 2,
+					"notes": "Current source (1-6)",
+					"id": "_fb001svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "IsMuted",
+					"siblingId": "_cmd004svelte",
+					"dataType": 1,
+					"notes": "Audio mute status",
+					"id": "_fb002svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "SystemPowered",
+					"siblingId": "_cmd005svelte",
+					"dataType": 1,
+					"notes": "Power status",
+					"id": "_fb003svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "VolumeLevel",
+					"siblingId": "",
+					"dataType": 2,
+					"notes": "Volume level 0-65535",
+					"id": "_fb004svelte",
+					"parentId": "_comp001svelte",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

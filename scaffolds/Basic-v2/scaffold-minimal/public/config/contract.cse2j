@@ -1,0 +1,241 @@
+{
+	"name": "SvelteCH5_rev1",
+	"timestamp": "2025-05-20 14:41:52.605",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Crestron MPC3-201-B",
+	"signals": {
+		"states": {
+			"boolean": {
+				"2": {
+					"10": "Airmedia.LoginCode"
+				},
+				"3": {
+					"4": "MPC3201B.MuteFb",
+					"5": "MPC3201B.StartPageActive",
+					"7": "MPC3201B.PowerIsOn",
+					"10": "MPC3201B.ProjectorWarming",
+					"11": "MPC3201B.CameraControl",
+					"12": "MPC3201B.ScreenControlNeeded"
+				},
+				"4": {
+					"1": "Settings.GuiMicActive",
+					"2": "Settings.GuiScreenActive",
+					"6": "Settings.VideoBlankIsEnabled"
+				}
+			},
+			"numeric": {
+				"2": {
+					"1": "Airmedia.Status",
+					"2": "Airmedia.NumberofUsersCon"
+				},
+				"3": {
+					"1": "MPC3201B.PowerState",
+					"2": "MPC3201B.Bargraph",
+					"3": "MPC3201B.SourceFb",
+					"4": "MPC3201B.SourceBtnCount"
+				},
+				"4": {
+					"1": "Settings.S1IconIDFromControlSystem",
+					"2": "Settings.S2IconIDFromControlSystem",
+					"3": "Settings.S3IconIDFromControlSystem",
+					"4": "Settings.S4IconIDFromControlSystem",
+					"5": "Settings.S5IconIDFromControlSystem",
+					"6": "Settings.S6IconIDFromControlSystem",
+					"7": "Settings.S7IconIDFromControlSystem",
+					"8": "Settings.S8IconIDFromControlSystem",
+					"21": "Settings.Line1GainIs",
+					"22": "Settings.Line2GainIs",
+					"23": "Settings.Line3GainIs",
+					"24": "Settings.Line4GainIs",
+					"27": "Settings.Mic1GainIs",
+					"28": "Settings.Mic2GainIs"
+				}
+			},
+			"string": {
+				"1": {
+					"3": "Diagnostics.Command"
+				},
+				"2": {
+					"1": "Airmedia.ConnectionAddress",
+					"2": "Airmedia.LoginCodeText",
+					"3": "Airmedia.IPAddressText",
+					"4": "Airmedia.HostnameText"
+				},
+				"3": {
+					"1": "MPC3201B.RoomName",
+					"2": "MPC3201B.Source1Name",
+					"3": "MPC3201B.Source2Name",
+					"4": "MPC3201B.Source3Name",
+					"5": "MPC3201B.Source4Name",
+					"6": "MPC3201B.Source5Name",
+					"7": "MPC3201B.Source6Name",
+					"8": "MPC3201B.LampHours",
+					"10": "MPC3201B.Source7Name",
+					"11": "MPC3201B.Source8Name",
+					"12": "MPC3201B.HelpText"
+				},
+				"4": {
+					"1": "Settings.SetPassword",
+					"3": "Settings.IPAdress"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"Airmedia.Power": {
+					"joinId": 1,
+					"smartObjectId": 2
+				},
+				"Airmedia.Up": {
+					"joinId": 2,
+					"smartObjectId": 2
+				},
+				"Airmedia.Down": {
+					"joinId": 3,
+					"smartObjectId": 2
+				},
+				"Airmedia.Left": {
+					"joinId": 4,
+					"smartObjectId": 2
+				},
+				"Airmedia.Right": {
+					"joinId": 5,
+					"smartObjectId": 2
+				},
+				"Airmedia.Ok": {
+					"joinId": 6,
+					"smartObjectId": 2
+				},
+				"Airmedia.Back": {
+					"joinId": 7,
+					"smartObjectId": 2
+				},
+				"Airmedia.TV": {
+					"joinId": 8,
+					"smartObjectId": 2
+				},
+				"Airmedia.PlayPause": {
+					"joinId": 9,
+					"smartObjectId": 2
+				},
+				"MPC3201B.Power": {
+					"joinId": 1,
+					"smartObjectId": 3
+				},
+				"MPC3201B.VolumeUp": {
+					"joinId": 2,
+					"smartObjectId": 3
+				},
+				"MPC3201B.VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 3
+				},
+				"MPC3201B.Mute": {
+					"joinId": 4,
+					"smartObjectId": 3
+				},
+				"MPC3201B.StartPageButton": {
+					"joinId": 6,
+					"smartObjectId": 3
+				},
+				"MPC3201B.ScreenUp": {
+					"joinId": 8,
+					"smartObjectId": 3
+				},
+				"MPC3201B.ScreenDown": {
+					"joinId": 9,
+					"smartObjectId": 3
+				},
+				"Settings.GuiMicActivate": {
+					"joinId": 3,
+					"smartObjectId": 4
+				},
+				"Settings.GuiScreenActivate": {
+					"joinId": 4,
+					"smartObjectId": 4
+				},
+				"Settings.VideoBlankEnable": {
+					"joinId": 5,
+					"smartObjectId": 4
+				}
+			},
+			"numeric": {
+				"MPC3201B.Source": {
+					"joinId": 3,
+					"smartObjectId": 3
+				},
+				"Settings.S1SetIconID": {
+					"joinId": 9,
+					"smartObjectId": 4
+				},
+				"Settings.S2SetIconID": {
+					"joinId": 10,
+					"smartObjectId": 4
+				},
+				"Settings.S3SetIconID": {
+					"joinId": 11,
+					"smartObjectId": 4
+				},
+				"Settings.S4SetIconID": {
+					"joinId": 12,
+					"smartObjectId": 4
+				},
+				"Settings.S5SetIconID": {
+					"joinId": 13,
+					"smartObjectId": 4
+				},
+				"Settings.S6SetIconID": {
+					"joinId": 14,
+					"smartObjectId": 4
+				},
+				"Settings.S7SetIconID": {
+					"joinId": 15,
+					"smartObjectId": 4
+				},
+				"Settings.S8SetIconID": {
+					"joinId": 16,
+					"smartObjectId": 4
+				},
+				"Settings.Line1GainSet": {
+					"joinId": 17,
+					"smartObjectId": 4
+				},
+				"Settings.Line2GainSet": {
+					"joinId": 18,
+					"smartObjectId": 4
+				},
+				"Settings.Line3GainSet": {
+					"joinId": 19,
+					"smartObjectId": 4
+				},
+				"Settings.Line4GainSet": {
+					"joinId": 20,
+					"smartObjectId": 4
+				},
+				"Settings.Mic1GainSet": {
+					"joinId": 25,
+					"smartObjectId": 4
+				},
+				"Settings.Mic2GainSet": {
+					"joinId": 26,
+					"smartObjectId": 4
+				}
+			},
+			"string": {
+				"Diagnostics.Debug": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"Diagnostics.Error": {
+					"joinId": 2,
+					"smartObjectId": 1
+				},
+				"Settings.PasswordIs": {
+					"joinId": 2,
+					"smartObjectId": 4
+				}
+			}
+		}
+	}
+}

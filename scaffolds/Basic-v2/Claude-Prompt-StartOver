@@ -1,0 +1,56 @@
+
+
+  I need to create a new Crestron CH5 touch panel project using Svelte
+  that follows the official ch5-svelte guidelines exactly. This will be
+  used as a scaffold/template for future touch panel projects.
+
+  ## Requirements:
+  1. Follow the official ch5-svelte documentation precisely:
+  https://docs.anthropic.com/en/docs/claude-code/claude_code_docs_map.md      
+  (check for ch5-svelte docs)
+  2. Use the working reference project at: 
+  C:\Users\scale\CascadeProjects\_CH5-Svelte525
+  3. Read all scaffolds/Basic-v2 documentation and follow scaffolds/Basic-v2/readme_content.md religously - it is the gold standard
+  4. Utiilize Contract CHD Contract.chd file as the project contract. Even though it is full of many signals to connect to, we will only utlize 5-10 initially until comms are fully working
+5.  C:\Users\scale\CascadeProjects\svelte-scaffolds\scaffolds\basic-v2
+
+  ## Key Technical Requirements:
+  - Use Svelte 5 with official ch5-svelte library
+  - Implement named signal references (not join numbers)
+  - Follow exact dependency installation from documentation
+  - Use vite-plugin-static-copy for CrComLib
+  - Proper contract.cse2j structure for signal mapping
+  - WebXPanel configuration: IP 192.168.2.153, ID 0x03
+
+  ## Desired Scaffold Features:
+  - Basic volume controls (up/down/mute)
+  - Source selection (6 sources: PC, Laptop, Airmedia, Doc Cam, Lectern       
+  HDMI, Floor Plate)
+  - Power and help buttons
+  - Professional touch panel UI layout
+  - Signal names: TouchPanelController.* prefix
+
+  ## Reference Guidelines Document:
+  Check: c:\Users\scale\CascadeProjects\_CH5-Svelte525\Deploying Crestron     
+   CH5 Touch Panels with Svelte Guide (2)\readme_content.md
+
+  ## Success Criteria:
+  - Named references work (signals show as 
+  "TouchPanelController.VolumeUp" not "join 1" in debugger)
+  - Clean build with no errors
+  - CH5Z package creates successfully
+  - Ready to use as scaffold template
+
+  Start by creating the project structure following the official 
+  documentation step-by-step, then implement the basic touch panel 
+  controls using patterns from the working reference project.
+
+  This prompt provides:
+  ✅ Clear objectives - Clean scaffold following official guidelines
+  ✅ Specific locations - Where to work and what to reference✅ Technical     
+   requirements - Known working configuration
+  ✅ Success criteria - How to verify it's working correctly
+  ✅ Reference materials - Official docs and working project to study
+
+  The new chat can start fresh with a clear roadmap and avoid the
+  debugging pitfalls we encountered.

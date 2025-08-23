@@ -1,0 +1,555 @@
+SDCardDetect: System SD card
+CSDSlot::SlotStateChange : DeviceInserted
+CM3: input file [\windows\firmware.bin] is 9932 bytes long
+CM3: firmware file read ok!
+PrcmCM3ResetAndHandshake: isM3IntReceived: 0
+PrcmDomainResetRelease DMN 0; mask 8
+Cm3ISR: M3 int recvd
+HwDogDriverInit: SystemID: 0x3A
+Notice: nk.exe # 2025-05-30 14:58:15  # User Reboot
+detect_processor_board_id: ProcessorBoardID [0x00000003] 
+Info: nk.exe # 2025-05-30 14:58:15  # SYSDOG: No saved regisry info found...
+checkTsid: Product name MPC3-201, Version: 
+Notice: nk.exe # 2025-05-30 14:58:15  # System startup: MPC3-201 [v1.8001.0229 (Mar 09 2023) #89422FE4]
+setIP: Registry static IP setting = 0.0.0.0
+Info: nk.exe # 2025-05-30 14:58:15  #  UpdateDHCPOptions:HostName option selected 
+Info: nk.exe # 2025-05-30 14:58:15  # setDomainName: Setting Domain Name to (null)
+Info: nk.exe # 2025-05-30 14:58:15  # Updating DHCP options on boot
+Notice: nk.exe # 2025-05-30 14:58:15  # HDG: Timeout set from registry 2 minutes
+Info: nk.exe # 2025-05-30 14:58:15  # Ootbf Versions matched!
+WARN: I2C: Read failed (slave addr=0x44, register=0x0000007F)
+ERROR 0 ReadI2CByte Reading from I2C Failed
+GetMaxNumPrograms - NO LICENSE Only 1 Program allowed
+Cpsw3g_InitializeAdapter: mode=1, port=1, txCh=0, rxChMask=0x01, ActiveCpgmac=1
+Sec_Init pStorageInfo->dwNumBlobStored [1]
+BSPGetDevicePadInfo: No Device Pad Info found for device 74
+CUIHalBase::GetDeviceInfo: Product ID - 0x3a
+CUIHalBase::GetDeviceInfo: Product ID - 0x3a
+UIHAL Init: found system 3A
+
+Open existing DSTORE File: UIDStore.bin
+DATASTORE: Existing File
+CUIHalInterface::ThreadCallbackRoutine: no valid event created, exit thread now!
+_cpsw3g_phy_update_link, Port:0  LINK:UP  SPEED:100000  DUPLEX:FD
+Info: CrestronMonitor.exe # 2025-05-30 14:58:20  # Crestron applications already installed
+Info: CrestronMonitor.exe # 2025-05-30 14:58:20  # CrestronMonitor: Reboot Reason 3
+ProcessPostInstall: No \windows\shipwithinstall.bat file
+Info: nk.exe # 2025-05-30 14:58:24  # SDMemWriteCounterUpdate: InitialCounter is:480057, MaxHourCounter is:23687
+Info: CrestronMonitor.exe # 2025-05-30 14:58:24  #  Prompt is MPC3-201, Deleting setup project html now. 
+Info: ConsoleServiceCE.exe # 2025-05-30 14:58:33  # ImportStoreFromMsToGH: Exported 128 certificates from ROOT store
+Info: ConsoleServiceCE.exe # 2025-05-30 14:58:33  # ImportStoreFromMsToGH: Exported 1 certificates from MY store
+Info: ConsoleServiceCE.exe # 2025-05-30 14:58:33  #  CTP/SCTP and TELNET console disabled. 
+
+Info: TLDM.exe # 2025-05-30 14:58:41  #  THAL loading now  .. 
+Notice: ConsoleServiceCE.exe # 2025-05-30 14:58:51  # SHELL Connection from: 192.168.1.5 
+Info: TLDM.exe # 2025-05-30 14:58:53  #  TLDM Starting.. 
+ Info: TLDM.exe # 2025-05-30 14:58:54  #  CTLDMWatchdogServer: Arm Watchdog is disabled 
+Info: CIPCommandProcessor.exe # 2025-05-30 14:58:56  #  SSL state read is True 
+
+Info: CIPCommandProcessor.exe # 2025-05-30 14:58:56  #  Product Name is MPC3-201 
+
+Info: CIPCommandProcessor.exe # 2025-05-30 14:59:02  #  Launching TCP server now 
+Notice: CIPCommandProcessor.exe # 2025-05-30 14:59:03  # Secure WebSocket server Sucessfully Created at port 49200
+Info: CIPCommandProcessor.exe # 2025-05-30 14:59:03  #  TLDMInterfaceReadInMessageQueueSize - Queue size defaults to 500 
+Info: CloudClient.exe # 2025-05-30 14:59:05  #  Model is PLATFORM_WIN_CE 
+
+Info: CloudClient.exe # 2025-05-30 14:59:05  # CloudUrl: https://api.my.crestron.com/api/Registration
+Info: CrestronTimerEventEngine.exe # 2025-05-30 14:59:05  # CrestronTimerEventEngine: Application initialized 
+Ok: AutoUpdateInterface.exe # 2025-05-30 14:59:07  # AutoUpdate Interface Starting
+Info: AutoUpdateInterface.exe # 2025-05-30 14:59:11  # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+Warning: CPHProcessor.exe # 2025-05-30 14:59:12  # CPHPlugin: getInstance()
+Notice: CPHProcessor.exe # 2025-05-30 14:59:12  # CresStore: Connections OK to redis
+ 
+OSDTLDMInterface::Start -- SENDING REG PACKET
+Notice: Displaymanager.exe # 2025-05-30 14:59:14  # DisplayManager.exe File Version: 1.0.8466.25486
+
+ checkpoint A 
+Initialize hardkey manager
+Initialize hardkey backlight in display manager
+Initialize auto brightness control manager
+Info: Displaymanager.exe # 2025-05-30 14:59:15  # UIHalUtility: calling GetALSStatus IOCTL_UIHAL_GET_STATUS_ALS
+Initialize PIR manager
+creating analog throtting thread...
+Init console service
+Info: jwtprocessor.exe # 2025-05-30 14:59:16  #  GetDevmac0: [00:10:7f:bb:96:43]
+Info: jwtprocessor.exe # 2025-05-30 14:59:16  #  Getip0: [192.168.2.151]
+Info: jwtprocessor.exe # 2025-05-30 14:59:16  #  Gethostname: [MPC3-2-7FBB9643]
+
+ Calling consoleRcvRoutine
+Info: jwtprocessor.exe # 2025-05-30 14:59:16  # ConsoleRcvRoutine: JWTConsoleCommand
+
+ --> JWTFetchCertOnStartUp -->
+Info: jwtprocessor.exe # 2025-05-30 14:59:21  # FetchCertificateForAllUrls: Unable to open registry
+Notice: HydrogenManager.exe # 2025-05-30 14:59:33  # CresStore: Connections OK to redis
+ 
+Debug: HydrogenManager.exe # 2025-05-30 14:59:34  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+Info: webSocketToken.exe # 2025-05-30 14:59:37  #  CWS server created for getWebSocketToken
+Ok: SimplSharpPro.exe # 2025-05-30 14:59:50  # SimplSharpPro Version: 2.10.004
+Notice: SimplSharpPro.exe # 2025-05-30 14:59:55  # CresStore: Connections OK to redis
+ 
+Info: SimplSharpPro.exe # 2025-05-30 14:59:55  # Successfully registered the application with the TLDM 
+Notice: SimplSharpPro.exe # 2025-05-30 14:59:59  # Starting Programs...!
+Notice: SimplSharpPro.exe # 2025-05-30 15:00:00  # Flash Policy Server - Starting Server.
+Notice: SimplSharpPro.exe # 2025-05-30 15:00:00  # Flash Policy Server - Server Started.
+Info: LogicEngine.exe [App 1] # 2025-05-30 15:00:08  # Loading program from \simpl\app01
+Info: LogicEngine.exe [App 1] # 2025-05-30 15:00:08  # Loading Program \simpl\app01\CH5_Windsurf_Contract_test.bin.
+Notice: LogicEngine.exe [App 1] # 2025-05-30 15:00:08  #  Program compiled for RMC4 controller running on MPC3-201. 
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:08  #  Reading in IPTable now for App 1
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:09  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Notice: LogicEngine.exe # 2025-05-30 15:00:10  # **Program 1 Started**
+Info: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  #  Going to steady state now 
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][09][14][43][30][00][00][43][32][00][00]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: (Unknown Device Message), [07][02][03][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][00][7F][FF]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][01][3F][FF]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][02][00][05]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][03][00][0A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][09][0C][CC]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0A][3F][FF]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][07][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][08][7F][FF]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][06][00][32]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0B][00][04]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0F][00][3D]).
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:10  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":60} 
+
+Info: CRESLOG.exe # 2025-05-30 15:00:10  # PersistentLog: Logging is started!
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:10  # SendProgramReadyResponseToAllWebSockets 8
+
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:10  # SendProgramReadyResponseToAllWebSockets 8
+
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:10  # SendProgramReadyResponseToAllWebSockets 8
+
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:10  # SendProgramReadyResponseToAllWebSockets 8
+
+Notice: TLDM.exe # 2025-05-30 15:00:10  #  Event rcvd is 8 
+Info: Displaymanager.exe # 2025-05-30 15:00:11  # SYS_EVENT_ALL_APPS_STARTED - Rcvd 
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+
+ --> ****** Token validation failed *****
+Error: jwtprocessor.exe # 2025-05-30 15:00:11  # Token validation failed : [0], validation result:[128]
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # HandleDeviceRouterGatewayConnectMessage: Invalid Token Rcvd!
+
+ --> ****** Token validation failed *****
+Error: jwtprocessor.exe # 2025-05-30 15:00:11  # Token validation failed : [0], validation result:[144]
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # HandleDeviceRouterGatewayConnectMessage: Invalid Token Rcvd!
+
+ --> ****** Token validation failed *****
+Error: jwtprocessor.exe # 2025-05-30 15:00:11  # Token validation failed : [0], validation result:[128]
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # HandleDeviceRouterGatewayConnectMessage: Invalid Token Rcvd!
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+
+ --> ****** Token validation failed *****
+Error: jwtprocessor.exe # 2025-05-30 15:00:11  # Token validation failed : [0], validation result:[128]
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # HandleDeviceRouterGatewayConnectMessage: Invalid Token Rcvd!
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # receiveThread calling exit for id 4
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # receiveThread calling exit for id 3
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # receiveThread calling exit for id 2
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:00:11  # receiveThread calling exit for id 1
+Debug: HydrogenManager.exe # 2025-05-30 15:00:13  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:17  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:22  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:24  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:24  # accessLevelString:  (Administrator)
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:25  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":60} 
+
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:25  # accessLevelString:  (Administrator)
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:25  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":60} 
+
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:25  # accessLevelString:  (Administrator)
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:25  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":60} 
+
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:00:25  # accessLevelString:  (Administrator)
+Info: CIPCommandProcessor.exe # 2025-05-30 15:00:25  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":60} 
+
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1E]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][26]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:39  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:40  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:46  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:46  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:49  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:50  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:50  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:58  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:00:59  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:02  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:02  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][29]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:07  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:08  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:12  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][23]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:12  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:14  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][23]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:14  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:01:15  # receiveThread calling exit for id 7
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:01:16  # accessLevelString:  (Administrator)
+Info: CIPCommandProcessor.exe # 2025-05-30 15:01:16  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":60} 
+
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][13]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][17]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:28  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Info: CIPCommandProcessor.exe # 2025-05-30 15:01:29  # GHS_OutputStoreToConsole: skipping database entry 0, type=2
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:29  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][17]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:29  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:43  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:43  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:01:59  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:00  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:02  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:02  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:05  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:05  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][18]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:12  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:13  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:19  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:19  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1E]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:40  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][16]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:40  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][13]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][18]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][23]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:49  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:02:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:00  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:00  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:02  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][28]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:03  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:17  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:19  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:22  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:23  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:26  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][23]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:28  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:34  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:34  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][17]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:43  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1E]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:47  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:47  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:50  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][28]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:58  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:03:59  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:02  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:02  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:04  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1E]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:04  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:05  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][29]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][25]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:21  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:23  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:23  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][26]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:32  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:34  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:35  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][18]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:38  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][24]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:49  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:49  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:53  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:04:53  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:03  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][12]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:04  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:15  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][24]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:15  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:19  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:21  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][12]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:22  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][25]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:28  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:32  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:38  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:38  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][25]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1E]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:05:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:00  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:01  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:05  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][18]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:05  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:21  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:22  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][15]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:30  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:30  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][15]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][24]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:35  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:36  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:40  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:40  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][32]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:46  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][28]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:46  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:52  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:06:52  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:00  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][2D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:01  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:05  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][28]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:05  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:07  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:07  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:08  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][25]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:09  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][14]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:17  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][26]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:17  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:23  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:24  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:32  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:36  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][2C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][23]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:47  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][2A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:47  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:55  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:07:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:23  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:23  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:28  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:28  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:31  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:32  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:34  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][15]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:34  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:36  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][0C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:38  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][24]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:39  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1E]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:54  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:55  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][23]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:59  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][2B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:08:59  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:03  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:03  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:09  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][17]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:12  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][25]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:12  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:15  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:28  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:32  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:09:33  # receiveThread calling exit for id 8
+Notice: CIPCommandProcessor.exe # 2025-05-30 15:09:34  # accessLevelString:  (Administrator)
+Info: CIPCommandProcessor.exe # 2025-05-30 15:09:34  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":60} 
+
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:44  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:47  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:47  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:52  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:52  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:09:59  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:00  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:10  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][25]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:19  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:21  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:24  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][24]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:24  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:25  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:26  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:32  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:32  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:35  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][12]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:35  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:39  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:39  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:46  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:55  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:55  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:10:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:04  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:04  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:08  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][33]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:09  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1F]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:15  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][32]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:18  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][29]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:35  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][14]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:35  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:36  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:37  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][15]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][16]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:49  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:49  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][23]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:53  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:53  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][21]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][18]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:11:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:06  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][29]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:07  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][2B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:11  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:13  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:13  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][24]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:16  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][14]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:20  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:24  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][22]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:24  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1B]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:27  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][2A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:33  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:34  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1C]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:35  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Info: ConsoleServiceCE.exe # 2025-05-30 15:12:36  # Modified access level of user: admin to 31
+Info: ConsoleServiceCE.exe # 2025-05-30 15:12:36  #  Updated console access levels.
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:38  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1A]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:38  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:39  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:40  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:41  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][19]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:42  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][20]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:45  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][1D]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:48  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:51  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][24]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:52  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:53  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][15]).
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:53  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Info: SSHD.exe # 2025-05-30 15:12:56  #  WDGSSHCallBackFunction - SYS_EVENT_REBOOT 
+IOCTL_HWDOG_ACT_REBOOT: reason 0x3
+Info: nk.exe # 2025-05-30 15:12:56  # SDMemWriteCounterUpdate: SDMemWriteCounterTotal updates to:489445. MaxHourCounter updates to:23687
+Warning: ConsoleServiceCE.exe # 2025-05-30 15:12:56  # SHELL connection being closed from address 192.168.1.5. 
+
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:56  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][0D][00][2E]).
+Info: ConsoleServiceCE.exe # 2025-05-30 15:12:56  # System Reboot Notification 
+Info: CIPCommandProcessor.exe # 2025-05-30 15:12:56  # System Reboot Notification 
+Error: CIPCommandProcessor.exe # 2025-05-30 15:12:56  #  Error - Socket is NOT ready for send on port 25264.
+Info: CIPCommandProcessor.exe # 2025-05-30 15:12:56  #  SendGatewayResponse: Socket getting closed because of blocking timeout or the socket is not connected
+
+Exception 'Data Abort' (0x4): Thread-Id=0628000a(pth=950d1814), Proc-Id=0626000a(pprc=950d0000) 'CIPCommandProcessor.exe', VM-active=0626000a(pprc=950d0000) 'CIPCommandProcessor.exe'
+PC=00295df8(???+0x00295df8) RA=000000e4(???+0x000000e4) SP=0006f270, BVA=00000000
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:12:56  # receiveThread calling exit for id 5
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:12:56  # receiveThread calling exit for id 10
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:12:56  # receiveThread calling exit for id 9
+Debug: CIPCommandProcessor.exe # 2025-05-30 15:12:56  # receiveThread calling exit for id 6
+Error: LogicEngine.exe [App 1] # 2025-05-30 15:12:57  # Unexpected packet encountered from Slot-07 (Type: Analog, [07][05][14][00][04][19][99]).
+Info: CRESLOG.exe # 2025-05-30 15:12:57  # System Reboot Notification

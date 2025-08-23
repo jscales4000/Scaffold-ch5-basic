@@ -1,0 +1,66 @@
+Notice: CEUDaemon # 2025-07-03 06:30:41 # IPv6: restoring global enabled/disabled setting
+Notice: CEUDaemon # 2025-07-03 06:30:41 # IPv6: restoring enabled/disabled setting for interface 0
+Notice: CEUDaemon # 2025-07-03 06:30:41 # IPv6: restoring static addresses for interface 0
+Notice: CEUDaemon # 2025-07-03 06:30:41 # IPv6: restoring static routes for interface 0
+Error: CEUDaemon # 2025-07-03 06:30:41 # Failed to set ping response to 1
+Notice: CEUDaemon # 2025-07-03 06:30:41 # IPv6: restored ping response setting: enabled
+Notice: CEUDaemon # 2025-07-03 06:30:41 # IPv6: restored destination unreachable setting: enabled
+Notice: platformd # 2025-07-03 09:31:10 # DOUG: PM_Initialize
+Notice: platformd # 2025-07-03 09:31:10 # module: 14, eUIH_RESOURCE_CRESNET
+Notice: platformd # 2025-07-03 09:31:10 # CUIHalCresnet::Initialize +
+Notice: platformd # 2025-07-03 09:31:10 # CUIHalCresnet::Initialize -
+Error: platformd # 2025-07-03 09:31:10 # CUIHalPM::USB POWER: enabled 
+Error: platformd # 2025-07-03 09:31:10 # external/crestron/uiHal/jstr1000/CUIHalHKY.cpp SetCapabilities Generating RFID disconnected packet.
+Notice: platformd # 2025-07-03 09:31:15 # CUIHalCresnet::GetCapabilities +
+Notice: platformd # 2025-07-03 09:31:15 # CUIHalCresnet::GetCapabilities -
+Notice: platformd # 2025-07-03 09:31:15 # CUIHalCresnet::SetCapabilities +
+Notice: platformd # 2025-07-03 09:31:15 # Starting CNET Transport
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:15 # Product type from GetSystemId: 7900
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:15 # Device type from GetProductType: 0x79FA
+Error: a_console # 2025-07-03 09:31:17 # Error Code returned from Cresstore = -1
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:19 # Product type from GetSystemId: 7900
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:19 # Device type from GetProductType: 0x79FA
+Notice: a_console # 2025-07-03 09:31:19 # PUF File exist
+Error: a_console # 2025-07-03 09:31:19 # Invalid Feat value
+Notice: platformd # 2025-07-03 09:31:20 # CUIHalCresnet::SetCapabilities -
+Notice: csio # 2025-07-03 09:31:26 # Product type from GetSystemId: 7900
+Notice: csio # 2025-07-03 09:31:26 # Device type from GetProductType: 0x79FA
+Notice: csio # 2025-07-03 09:31:26 # Product type detected: 7900
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:30 # Product type from GetSystemId: 7900
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:30 # Device type from GetProductType: 0x79FA
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:32 # Product type from GetSystemId: 7900
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:32 # Device type from GetProductType: 0x79FA
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:35 # Product type from GetSystemId: 7900
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:35 # Device type from GetProductType: 0x79FA
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:37 # Product type from GetSystemId: 7900
+Notice: com.crestron.txrxservice:txrx_css # 2025-07-03 09:31:37 # Device type from GetProductType: 0x79FA
+Notice: ctpd # 2025-07-03 09:31:44 # ctpd waited 42 seconds for 3 command processors.
+Notice: AuditLogService # 2025-07-03 09:31:44 # Time Change of 10816 seconds
+Notice: cipclientd # 2025-07-03 09:31:56 # Gateway_Reconnect_Task: hostname=''; resolvedIP='192.168.2.151', socket=0
+Notice: cipclientd # 2025-07-03 09:31:58 # GATEWAY: Got Connect Response for License, sending {"CH5MobileTrialDays":28} to platform; datalength 25
+Notice: monitoringTasks.sh # 2025-07-03 06:31:56 # Monitoring started 
+Notice: CPHProcessor # 2025-07-03 06:31:57 # [external/crestron/cph/main.cpp:439] CTPD is ready at this time 0 with return code 0
+Warning: CPHProcessor # 2025-07-03 06:31:59 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1825] processReadOnlyObjects Clearing the object SystemVersions entry
+Warning: CPHProcessor # 2025-07-03 06:31:59 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-07-03 06:31:59 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1825] processReadOnlyObjects Clearing the object UserInterfaceConfig entry
+Warning: CPHProcessor # 2025-07-03 06:31:59 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-07-03 06:31:59 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1825] processReadOnlyObjects Clearing the object FilePaths entry
+Warning: CPHProcessor # 2025-07-03 06:31:59 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Notice: HydrogenManager # 2025-07-03 06:32:04 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/XioConnectedExternalInterface.cpp:151] XioConnected_Init: XIO_SDK_CURRENT_VERSION [3.8.2]
+ 
+Error: HydrogenManager # 2025-07-03 06:32:04 # [external/crestron/HydrogenManager/source/XioConnectedAgent/../../source/XioConnectedAgent/DeviceInterface/XioConnectedAgentDeviceInterface.cpp:311] writeDeviceObjtoFile couldn't open DeviceInfo file
+ 
+Notice: HydrogenManager # 2025-07-03 06:32:04 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/CloudTransport.cpp:403] SetOption_TLS_VERSION set to TLSv1.2 
+ 
+Notice: HydrogenManager # 2025-07-03 06:32:04 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/CloudTransport.cpp:407] The current IoT SDK version is 1.12.1 
+ 
+Notice: HydrogenManager # 2025-07-03 06:32:04 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/HydrogenMgr.cpp:371] Connected to Hydrogen at url = 'prd-usw-iothub.azure-devices.net'
+ 
+Notice: HydrogenManager # 2025-07-03 06:32:04 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/HydrogenStateMachine.cpp:716] Setting Current HydrogenHubUrl to prd-usw-iothub.azure-devices.net 
+Error: HydrogenManager # 2025-07-03 06:32:05 # [external/crestron/azure-iot-sdks-crestron/../../azure-iot-sdk-c-LTS_03_2024_Ref02/iothub_client/src/iothubtransport_amqp_cbs_auth.c:183] on_cbs_put_token_complete_callback CBS reported status code 401, error: 'Unauthorized access' for put-token operation 
+Error: HydrogenManager # 2025-07-03 06:32:05 #  for device 'c4-42-68-43-01-8a_-1' 
+Error: HydrogenManager # 2025-07-03 06:32:05 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/CloudTransport.cpp:1216] ConnectionStatusCallback result[1],reason[2]
+ 
+Notice: HydrogenManager # 2025-07-03 06:32:05 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/HydrogenMgr.cpp:1821] HydrogenMgr::deleteCresNextTransport_FN Wait for ThreadEntry() Done! Deleting cresNextTransport
+ 
+Error: a_console # 2025-07-03 06:32:16 # Invalid Feat value

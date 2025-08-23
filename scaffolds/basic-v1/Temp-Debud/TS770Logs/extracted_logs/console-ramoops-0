@@ -1,0 +1,82 @@
+dit: rate limit exceeded
+[4072165.217845] audit: rate limit exceeded
+[4072178.653484] audit: rate limit exceeded
+[4072195.213833] audit: rate limit exceeded
+[4072202.335634] audit: rate limit exceeded
+[4072203.611028] audit: rate limit exceeded
+[4072212.732032] audit: rate limit exceeded
+[4072215.771747] audit: rate limit exceeded
+[4072225.210429] audit: rate limit exceeded
+[4072233.691924] audit: rate limit exceeded
+[4072255.210414] audit: rate limit exceeded
+[4072263.771157] audit: rate limit exceeded
+[4072285.210145] audit: rate limit exceeded
+[4072293.849020] audit: rate limit exceeded
+[4072298.249191] audit: rate limit exceeded
+[4072308.728688] audit: rate limit exceeded
+[4072311.770113] audit: rate limit exceeded
+[4072315.206654] audit: rate limit exceeded
+[4072322.008378] audit: rate limit exceeded
+[4072323.928199] audit: rate limit exceeded
+[4072345.206487] audit: rate limit exceeded
+[4072353.367584] audit: rate limit exceeded
+[4072375.287954] audit: rate limit exceeded
+[4072394.244099] audit: rate limit exceeded
+[4072400.085175] audit: rate limit exceeded
+[4072404.085191] audit: rate limit exceeded
+[4072414.164951] audit: rate limit exceeded
+[4072415.444965] audit: rate limit exceeded
+[4072422.484640] audit: rate limit exceeded
+[4072425.683785] audit: rate limit exceeded
+[4072438.483846] audit: rate limit exceeded
+[4072444.163811] audit: rate limit exceeded
+[4072460.243571] audit: rate limit exceeded
+[4072474.161440] audit: rate limit exceeded
+[4072490.320101] audit: rate limit exceeded
+[4072500.722097] audit: rate limit exceeded
+[4072506.319353] audit: rate limit exceeded
+[4072521.680306] audit: rate limit exceeded
+[4072540.570182] audit: rate limit exceeded
+[4072541.593416] audit: rate limit exceeded
+[4072586.327889] audit: rate limit exceeded
+[4072593.995937] audit: rate limit exceeded
+[4072596.717748] audit: rate limit exceeded
+[4072607.437309] audit: rate limit exceeded
+[4072617.676566] audit: rate limit exceeded
+[4072629.196826] audit: rate limit exceeded
+[4072637.834523] audit: rate limit exceeded
+[4072659.275672] audit: rate limit exceeded
+[4072667.833661] audit: rate limit exceeded
+[4072682.232942] audit: rate limit exceeded
+[4072689.353828] audit: rate limit exceeded
+[4072692.713396] audit: rate limit exceeded
+[4072697.834779] audit: rate limit exceeded
+[4072703.434715] audit: rate limit exceeded
+[4072706.153687] audit: rate limit exceeded
+[4072707.912971] audit: rate limit exceeded
+[4072713.032790] audit: rate limit exceeded
+[4072716.791665] audit: rate limit exceeded
+[4072723.273145] audit: rate limit exceeded
+[4072728.472653] audit: rate limit exceeded
+[4072739.912564] audit: rate limit exceeded
+[4072743.270732] audit: rate limit exceeded
+[4072746.872493] audit: rate limit exceeded
+[4072748.472183] audit: rate limit exceeded
+[4072758.823268] libprocessgroup: Failed to kill process cgroup uid 0 pid 3743 in 219ms, 1 processes remain
+[4072759.080633] audit: rate limit exceeded
+[4072761.848253] binder_alloc: 28063: binder_alloc_buf, no vma
+[4072770.142112] MPP4 OFF 
+[4072770.329419] audit: rate limit exceeded
+[4072770.765149] binder_alloc: 1238: binder_alloc_buf, no vma
+[4072771.957736] i2c-msm-v2 78b7000.i2c: BUS ERROR:noisy bus/unexpected start/stop tag: msgs(n:2 cur:0 tx) bc(rx:33 tx:1) mode:FIFO slv_addr:0x38 MSTR_STS:0x001321c4 OPER:0x00000010
+[4072771.957775] hy46xx_ts 3-0038: hy46xx_i2c_Read: i2c read error.
+[4072771.957781] hy46xx_ts 3-0038: hy46xx_read_Touchdata read touchdata failed.
+[4072771.983691] audit: netlink_unicast sending to audit_pid=412 returned error: -111
+[4072771.983707] audit: audit_pid=412 reset
+[4072772.376177] sysrq: Kill All Tasks
+[4072772.383394] ueventd: 76 output lines suppressed due to ratelimiting
+[4072773.514872] xhci-hcd xhci-hcd.0.auto: Host not halted after 16000 microseconds.
+[4072773.539943] mdss_fb_release_all: try to close unopened fb 1! from pid:1 name:init
+[4072773.539993] mdss_fb_release_all: try to close unopened fb 0! from pid:1 name:init
+[4072773.541706] reboot: Restarting system with command 'shell'
+[4072773.542237] Going down for restart now

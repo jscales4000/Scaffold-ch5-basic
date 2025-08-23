@@ -1,0 +1,90 @@
+<template id="Contract_Svelte.Controls.Airmedia">
+	<ch5-list id="Controls.Airmedia" indexId="idx1" size="8" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].Status" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].NumberOfUsersCon" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].LoginCodeAnalog" nohandle>
+        	</ch5-slider>
+	 	<span data-ch5-textcontent="Airmedia[{{idx1}}].LoginCodeText">Label</span>
+	 	<span data-ch5-textcontent="Airmedia[{{idx1}}].IPAddressText">Label</span>
+	 	<span data-ch5-textcontent="Airmedia[{{idx1}}].HostNameText">Label</span>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].OUTSyncDetected" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].OUTInterlaced" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].OutCECError" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].OUTDisabledByHDCP" disabled>
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].OUTResolutionFB" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].OUTFPSFB" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].OUTAspectRatioFB" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].OUTAudioFormatFb" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].OUTHDCPModeFB" nohandle>
+        	</ch5-slider>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].InSyncDetectedFB" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].INInterlacedFB" disabled>
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].InHorizontalRes" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].InVerticalRes" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].InFPSFB" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].InAspectRatio" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].InAudioFormat" nohandle>
+        	</ch5-slider>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].AutomaticRoutingEnabledFB" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Airmedia[{{idx1}}].AutomaticInputRoutingEnable">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Airmedia[{{idx1}}].AutomaticInputRoutingDisable">
+        	</ch5-button>
+	 		<ch5-slider sendEventOnChange="Airmedia[{{idx1}}].VideoOut">
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].VideoOutFB" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].ActiveVideoFB" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="Airmedia[{{idx1}}].DigitalSignageState">
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].DigitalSignageStateFB" nohandle>
+        	</ch5-slider>
+	 	<ch5-textinput sendEventOnChange="Airmedia[{{idx1}}].DigitalSignageURL"> </ch5-textinput>
+	 	<span data-ch5-textcontent="Airmedia[{{idx1}}].DigitalSignageURLFB">Label</span>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].LoginCodeFB" nohandle>
+        	</ch5-slider>
+	 	<ch5-textinput sendEventOnChange="Airmedia[{{idx1}}].LoginCodeSet"> </ch5-textinput>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].RebootRequired" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Airmedia[{{idx1}}].Reboot">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].StatusFb" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].NumberofUsersConnectedfb" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="Airmedia[{{idx1}}].NumberofUsersPresentingFB" nohandle>
+        	</ch5-slider>
+	 	<span data-ch5-textcontent="Airmedia[{{idx1}}].LoginCodeTextFB">Label</span>
+	 	<span data-ch5-textcontent="Airmedia[{{idx1}}].IPAddressTextFB">Label</span>
+	 	<span data-ch5-textcontent="Airmedia[{{idx1}}].HostnameTextFB">Label</span>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].MiracastEnabledFB" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].WifiDongleConnectedFB" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Airmedia[{{idx1}}].DeviceOfflineFB" disabled>
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

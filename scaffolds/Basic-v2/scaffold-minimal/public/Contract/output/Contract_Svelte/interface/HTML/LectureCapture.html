@@ -1,0 +1,59 @@
+<template id="Contract_Svelte.Control.LectureCapture">
+	<ch5-list id="Control.LectureCapture" indexId="idx1" size="8" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StartRecording">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StopRecording">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="LectureCapture[{{idx1}}].NumberOfRecordersAvailable" nohandle>
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StartRecordingOnChannel1">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StartRecordingOnChannel2">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StartRecordingOnChannel3">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StartRecordingOnChannel4">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StopRecordingOnChannel1">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StopRecordingOnChannel2">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StopRecordingOnChannel3">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StopRecordingOnChannel4">
+        	</ch5-button>
+	 	<span data-ch5-textcontent="LectureCapture[{{idx1}}].ChannelPreviewURLFB">Label</span>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].CurrentEventPause">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].CurrentEventResume">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].CurrentEventStop">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].CurrentEventExtend">
+        	</ch5-button>
+	 	<span data-ch5-textcontent="LectureCapture[{{idx1}}].UpcomingEventNameFB">Label</span>
+	 	<span data-ch5-textcontent="LectureCapture[{{idx1}}].UpcomingEventCountdownFB">Label</span>
+	 	<span data-ch5-textcontent="LectureCapture[{{idx1}}].CurrentEventNameFB">Label</span>
+	 	<!--
+ 	 	 State: In MB 
+ 	 	-->
+ 		<span data-ch5-textcontent="LectureCapture[{{idx1}}].UsedSpaceSerial">Label</span>
+	 	<!--
+ 	 	 State: In MB 
+ 	 	-->
+ 		<span data-ch5-textcontent="LectureCapture[{{idx1}}].TotalSpaceSerial">Label</span>
+	 	<!--
+ 	 	 State: In MB 
+ 	 	-->
+ 		<span data-ch5-textcontent="LectureCapture[{{idx1}}].FreeSpaceSerial">Label</span>
+	 		<ch5-button receiveStateSelected="LectureCapture[{{idx1}}].IsCommunicatingWdevice" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="LectureCapture[{{idx1}}].StartURLVideoFeed">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

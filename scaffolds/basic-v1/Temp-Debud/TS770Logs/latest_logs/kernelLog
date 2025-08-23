@@ -1,0 +1,64 @@
+36,77792,95699974155,-;type=1400 audit(1755821869.173:166100): avc: denied { getattr } for comm="busybox" path="/proc/kallsyms" dev="proc" ino=4026532093 scontext=u:r:crestron_vendor:s0 tcontext=u:object_r:proc_kallsyms:s0 tclass=file permissive=0
+36,77793,95699974268,-;type=1400 audit(1755821869.173:166101): avc: denied { getattr } for comm="busybox" path="/proc/config.gz" dev="proc" ino=4026532094 scontext=u:r:crestron_vendor:s0 tcontext=u:object_r:config_gz:s0 tclass=file permissive=0
+36,77794,95699974867,-;type=1400 audit(1755821869.173:166102): avc: denied { getattr } for comm="busybox" path="/proc/uid_concurrent_policy_time" dev="proc" ino=4026531866 scontext=u:r:crestron_vendor:s0 tcontext=u:object_r:proc_uid_concurrent_policy_time:s0 tclass=file permissive=0
+36,77795,95700694651,-;type=1400 audit(1755821869.893:166103): avc: denied { getattr } for comm="lsof" path="/proc/locks" dev="proc" ino=4026532039 scontext=u:r:crestron_vendor:s0 tcontext=u:object_r:proc_locks:s0 tclass=file permissive=0
+4,77796,95700695688,-;audit: audit_lost=110030 audit_rate_limit=5 audit_backlog_limit=64
+3,77797,95700695693,-;audit: rate limit exceeded
+36,77798,95700985692,-;type=1400 audit(1755821870.183:166831): avc: denied { getattr } for comm="lsof" path="/dev/__properties__/u:object_r:odsign_prop:s0" dev="tmpfs" ino=5827 scontext=u:r:crestron_vendor:s0 tcontext=u:object_r:odsign_prop:s0 tclass=file permissive=0
+36,77799,95700986871,-;type=1400 audit(1755821870.183:166832): avc: denied { getattr } for comm="lsof" path="socket:[18376451]" dev="sockfs" ino=18376451 scontext=u:r:crestron_vendor:s0 tcontext=u:r:zygote:s0 tclass=unix_dgram_socket permissive=0
+36,77800,95700987027,-;type=1400 audit(1755821870.183:166833): avc: denied { getattr } for comm="lsof" path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7180 scontext=u:r:crestron_vendor:s0 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0
+36,77801,95700987093,-;type=1400 audit(1755821870.183:166834): avc: denied { getattr } for comm="lsof" path="socket:[31859]" dev="sockfs" ino=31859 scontext=u:r:crestron_vendor:s0 tcontext=u:r:zygote:s0 tclass=unix_dgram_socket permissive=0
+36,77802,95700987155,-;type=1400 audit(1755821870.183:166835): avc: denied { getattr } for comm="lsof" path="socket:[36894]" dev="sockfs" ino=36894 scontext=u:r:crestron_vendor:s0 tcontext=u:r:zygote:s0 tclass=unix_stream_socket permissive=0
+14,77803,95701122170,-;init: Untracked pid 32483 received signal 1
+14,77804,95701122596,-;init: Untracked pid 4625 received signal 1
+14,77805,95701122841,-;init: Untracked pid 32479 received signal 1
+4,77806,95701713003,-;audit: audit_lost=111430 audit_rate_limit=5 audit_backlog_limit=64
+3,77807,95701713008,-;audit: rate limit exceeded
+4,77808,95701773474,-;DSB: Encrypt_Internal.
+3,77809,95702607424,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77810,95702607615,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77811,95702607861,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77812,95702608111,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77813,95702608363,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77814,95702608611,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77815,95702609387,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77816,95702609651,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77817,95702609690,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+3,77818,95702609771,-;smsc95xx 1-1.1:1.0 eth0: kevent 2 may have been dropped
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-1.1:1.0
+6,77819,95703202756,-;binder: 4713:4713 ioctl 40046210 7fe5967764 returned -22
+6,77820,95703312463,-;binder: 4718:4718 ioctl 40046210 7fc0dac0f4 returned -22
+6,77821,95703422084,-;binder: 4723:4723 ioctl 40046210 7fcf18fb34 returned -22
+6,77822,95703887119,-;binder: 4733:4733 ioctl 40046210 7ff19197d4 returned -22
+6,77823,95704414479,-;binder: 4741:4741 ioctl 40046210 7fca399654 returned -22
+6,77824,95704514587,-;binder: 4749:4749 ioctl 40046210 7ff60f4234 returned -22
+6,77825,95704647722,-;binder: 4759:4759 ioctl 40046210 7fdb89ea74 returned -22
+6,77826,95704732577,-;binder: 4767:4767 ioctl 40046210 7fe8db6474 returned -22
+6,77827,95704823641,-;binder: 4775:4775 ioctl 40046210 7fd2405a84 returned -22
+6,77828,95704906715,-;binder: 4785:4785 ioctl 40046210 7fcac69d94 returned -22
+6,77829,95704988869,-;binder: 4793:4793 ioctl 40046210 7ffa3817a4 returned -22
+6,77830,95705143152,-;binder: 4807:4807 ioctl 40046210 7fc536c494 returned -22
+6,77831,95705313006,-;binder: 4822:4822 ioctl 40046210 7fdb309b44 returned -22
+6,77832,95711646272,-;binder: 4958:4958 ioctl 40046210 7ffea19bd4 returned -22
+6,77833,95711918225,-;binder: 4970:4970 ioctl 40046210 7ffe939c24 returned -22
+6,77834,95711919833,-;binder: 4970:4970 transaction failed 29201/-1, size 172-40 line 3404
+36,77835,95711920750,-;type=1400 audit(1755821881.113:167652): avc: denied { append } for comm="cmd" path="/storage/emulated/0/ROMDISK/logs/ramdiskLogs/debugLogs.log" dev="tmpfs" ino=18438798 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=file permissive=0

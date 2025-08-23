@@ -1,14 +1,22 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+  import { useDigital, useAnalog, pulseDigital, setAnalog } from 'ch5-svelte';
   import Header from './components/shared/Header.svelte';
   import Footer from './components/shared/Footer.svelte';
   
   // Export variables and functions for child components
   export let roomName = "Room Name";
-  export let isMuted = false;
-  export let currentVolume = 50;
+  
+  // Crestron signal bindings using ch5-svelte hooks
+  const isMuted = useDigital('TouchPanelController.IsMuted'); // Named reference for mute feedback
+  const systemPowered = useDigital('TouchPanelController.SystemPowered'); // Named reference for power feedback
+  const selectedSource = useAnalog('TouchPanelController.SelectedSource'); // Named reference for selected source feedback
+  
+  // Local state for UI
+  let currentVolume = 50;
   
   // Source management
-  let currentSource = 0;
+  let currentSource = selectedSource.value || 0;
   const sources = [
     { id: 1, label: 'PC', icon: 'fa-solid fa-desktop' },
     { id: 2, label: 'Laptop', icon: 'fa-solid fa-laptop' },
@@ -18,27 +26,53 @@
     { id: 6, label: 'Floor Plate', icon: 'fa-solid fa-square' },
   ];
   
-  function selectSource(sourceId) {
-    currentSource = sourceId;
+  // Update local source when Crestron feedback changes
+  $: currentSource = selectedSource.value || 0;
+
+  // CH5 Signal Functions using ch5-svelte
+  function selectSource(sourceId: number) {
+    console.log(`Selecting source: ${sourceId}`);
+    setAnalog('TouchPanelController.SelectSource', sourceId); // Send using named reference
+    currentSource = sourceId; // Update local state for immediate feedback
   }
   
   function toggleMute() {
-    isMuted = !isMuted;
+    console.log('Mute button pressed');
+    pulseDigital('TouchPanelController.MuteToggle'); // Pulse using named reference
   }
   
   function handleVolumeUp() {
-    currentVolume = Math.min(100, currentVolume + 5);
+    console.log('Volume up pressed');
+    pulseDigital('TouchPanelController.VolumeUp'); // Pulse using named reference
+    currentVolume = Math.min(100, currentVolume + 5); // Local feedback
   }
   
   function handleVolumeDown() {
-    currentVolume = Math.max(0, currentVolume - 5);
+    console.log('Volume down pressed');
+    pulseDigital('TouchPanelController.VolumeDown'); // Pulse using named reference
+    currentVolume = Math.max(0, currentVolume - 5); // Local feedback
+  }
+
+  function handlePowerButton() {
+    console.log('Power button pressed');
+    pulseDigital('TouchPanelController.PowerButton'); // Pulse using named reference
+  }
+
+  function handleHelpButton() {
+    console.log('Help button pressed');
+    pulseDigital('TouchPanelController.HelpButton'); // Pulse using named reference
+  }
+
+  function handleSettingsButton() {
+    console.log('Settings button pressed');
+    pulseDigital('TouchPanelController.SettingsButton'); // Pulse using named reference
   }
 </script>
 
 <div id="app-container" class="fixed inset-0 w-screen h-screen overflow-hidden bg-[#0C234B] flex items-center justify-center">
   <main class="relative bg-[#0a1a36] overflow-hidden" style="width: 1280px; height: 800px; transform-origin: center center;">
   
-  <Header {roomName} />
+  <Header {roomName} {handleHelpButton} {handleSettingsButton} />
   
   <!-- Main content area -->
   <div class="content-area">
@@ -78,7 +112,7 @@
   </div>
 </div>
 
-    <Footer {isMuted} {currentVolume} {toggleMute} {handleVolumeUp} {handleVolumeDown} />
+    <Footer isMuted={isMuted.value} {currentVolume} {toggleMute} {handleVolumeUp} {handleVolumeDown} {handlePowerButton} />
   </main>
 </div>
 

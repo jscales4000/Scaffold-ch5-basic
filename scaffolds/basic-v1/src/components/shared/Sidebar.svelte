@@ -10,7 +10,7 @@
   // Track selected source
   let selectedSourceId = '';
   
-  function selectSource(id) {
+  function selectSource(id: string) {
     selectedSourceId = id;
     // In a real app, would emit an event or update a store
     console.log(`Selected source: ${id}`);

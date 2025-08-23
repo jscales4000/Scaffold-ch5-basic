@@ -1,0 +1,39 @@
+<template id="Contract_Svelte.Control.DocCam">
+	<ch5-list id="Control.DocCam" indexId="idx1" size="8" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].CameraOn">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].CameraOff">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="DocCam[{{idx1}}].CameraIsOn" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].FOCup">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].FOCdown">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].ZoomUp">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].ZoomDown">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].IrisUp">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].IrisDown">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].Preset1">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].Preset2">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].Preset3">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].Preset1Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].Preset2Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="DocCam[{{idx1}}].Preset3Save">
+        	</ch5-button>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

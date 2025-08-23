@@ -1,0 +1,47 @@
+Notice: AuditLogService # 2025-08-15 04:54:27 # Time Change of -53 seconds
+Warning: cipclientd # 2025-08-15 05:00:29 # Invalid header length (1025) (should be 268) from 192.168.1.61
+Error: cipclientd # 2025-08-15 05:00:29 # ProcessCIP_Packet: result=-1
+Warning: CPHProcessor # 2025-08-15 10:54:54 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Notice: crestErrorLogServer # 2025-08-15 15:06:00 # SDCard Write COUNTER: 153519419
+Warning: CPHProcessor # 2025-08-16 02:25:35 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-08-16 02:25:36 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-08-16 02:26:36 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-08-16 02:26:38 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Error: cipclientd # 2025-08-16 05:00:28 # ProcessCIP_Packet: result=-1
+Notice: crestErrorLogServer # 2025-08-16 15:07:02 # SDCard Write COUNTER: 154495877
+Warning: CPHProcessor # 2025-08-17 02:26:48 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-08-17 02:26:50 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Error: cipclientd # 2025-08-17 05:00:39 # ProcessCIP_Packet: result=-1
+Notice: crestErrorLogServer # 2025-08-17 15:08:14 # SDCard Write COUNTER: 155488219
+Warning: CPHProcessor # 2025-08-18 02:26:58 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-08-18 02:27:01 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Error: cipclientd # 2025-08-18 05:00:48 # ProcessCIP_Packet: result=-1
+Warning: cipclientd # 2025-08-18 09:29:05 # GW Closed Socket 8 - Remote Closed
+Notice: cipclientd # 2025-08-18 09:29:05 # GATEWAY: CIP Offline with 192.168.2.153 by connection close
+Notice: cipclientd # 2025-08-18 09:29:20 # Gateway_Reconnect_Task: hostname=''; resolvedIP='192.168.2.153', socket=0
+Warning: CPHProcessor # 2025-08-18 10:18:05 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Notice: crestErrorLogServer # 2025-08-18 10:18:42 # SDCard Write COUNTER: 156291519
+Warning: CPHProcessor # 2025-08-18 10:31:55 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Notice: crestErrorLogServer # 2025-08-18 10:32:44 # SDCard Write COUNTER: 156335043
+Notice: crestErrorLogServer # 2025-08-18 10:33:12 # SDCard Write COUNTER: 156343451
+Warning: CPHProcessor # 2025-08-18 10:41:58 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Notice: crestErrorLogServer # 2025-08-18 15:09:32 # SDCard Write COUNTER: 156562711
+Warning: CPHProcessor # 2025-08-19 02:26:08 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-08-19 02:26:09 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Error: cipclientd # 2025-08-19 05:00:55 # ProcessCIP_Packet: result=-1
+Notice: crestErrorLogServer # 2025-08-19 15:10:33 # SDCard Write COUNTER: 157525379
+Warning: CPHProcessor # 2025-08-20 02:26:18 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Warning: CPHProcessor # 2025-08-20 02:26:20 # [external/crestron/libDynamicHandler/source/DynamicModuleHandler.cpp:1835] processReadOnlyObjects publishing the complete object
+Error: cipclientd # 2025-08-20 05:01:04 # ProcessCIP_Packet: result=-1
+Notice: crestErrorLogServer # 2025-08-20 15:11:44 # SDCard Write COUNTER: 158499883
+Notice: crestErrorLogServer # 2025-08-20 17:07:45 # SDCard Write COUNTER: 158617971
+Notice: crestErrorLogServer # 2025-08-20 17:21:54 # SDCard Write COUNTER: 158747907
+Notice: crestErrorLogServer # 2025-08-20 17:31:29 # SDCard Write COUNTER: 158799613
+Notice: ctpd # 2025-08-20 17:37:47 # SHELL Connection 1 from: 192.168.1.103 port 63360
+Notice: crestErrorLogServer # 2025-08-20 17:38:53 # SDCard Write COUNTER: 158860167
+Warning: HydrogenManager # 2025-08-20 17:41:45 # [external/crestron/HydrogenManager/source/XioConnectedAgent/../../source/XioConnectedAgent/DeviceInterface/XioConnectedAgentDeviceInterfaceClass.cpp:1522] [ParseDeviceEventJson] Received Reboot event, CresNextDataprocessor disabled
+ 
+Notice: HydrogenManager # 2025-08-20 17:41:45 # [external/crestron/HydrogenManager/source/XioSdk/../../source/XioSdk/HydrgnStMachePro.cpp:992] HydrgnStMachProj: SENT reboot notification
+ 
+Error: CPHProcessor # 2025-08-20 17:42:21 # [external/crestron/cph/common/Handler/CresStore/CresstoreService.cpp:160] CresStoreInterface: Redis server disconnected.
+Error: /system/bin/reboot # 2025-08-20 17:42:28 # Rebooting System Now....

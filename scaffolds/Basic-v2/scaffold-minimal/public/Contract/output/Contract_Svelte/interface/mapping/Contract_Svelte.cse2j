@@ -1,0 +1,4458 @@
+{
+	"name": "Contract_Svelte",
+	"timestamp": "2025-08-23 08:52:38.113",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Crestron TS-60/70/80",
+	"signals": {
+		"states": {
+			"boolean": {
+				"2": {
+					"10": "FullDeviceControl.LoginCode",
+					"11": "FullDeviceControl.MediaPlayerIsPlaying",
+					"12": "FullDeviceControl.MediaPlayerCurrentTime",
+					"13": "FullDeviceControl.MediaPlayerDuration"
+				},
+				"3": {
+					"4": "MPC3201B.MuteFb",
+					"5": "MPC3201B.StartPageActive",
+					"7": "MPC3201B.PowerIsOn",
+					"10": "MPC3201B.ProjectorWarming",
+					"11": "MPC3201B.CameraControl",
+					"12": "MPC3201B.ScreenControlNeeded",
+					"13": "MPC3201B.MicrophoneRequired",
+					"14": "MPC3201B.MicrophoneNotRequired"
+				},
+				"4": {
+					"1": "Settings.GuiMicActive",
+					"2": "Settings.GuiScreenActive",
+					"6": "Settings.VideoBlankIsEnabled"
+				},
+				"13": {
+					"22": "MediaPlayer[0].MediaPlayerIsPlaying"
+				},
+				"14": {
+					"22": "MediaPlayer[1].MediaPlayerIsPlaying"
+				},
+				"15": {
+					"22": "MediaPlayer[2].MediaPlayerIsPlaying"
+				},
+				"16": {
+					"22": "MediaPlayer[3].MediaPlayerIsPlaying"
+				},
+				"17": {
+					"22": "MediaPlayer[4].MediaPlayerIsPlaying"
+				},
+				"18": {
+					"22": "MediaPlayer[5].MediaPlayerIsPlaying"
+				},
+				"19": {
+					"22": "MediaPlayer[6].MediaPlayerIsPlaying"
+				},
+				"20": {
+					"22": "MediaPlayer[7].MediaPlayerIsPlaying"
+				},
+				"21": {
+					"3": "DocCam[0].CameraIsOn"
+				},
+				"22": {
+					"3": "DocCam[1].CameraIsOn"
+				},
+				"23": {
+					"3": "DocCam[2].CameraIsOn"
+				},
+				"24": {
+					"3": "DocCam[3].CameraIsOn"
+				},
+				"25": {
+					"3": "DocCam[4].CameraIsOn"
+				},
+				"26": {
+					"3": "DocCam[5].CameraIsOn"
+				},
+				"27": {
+					"3": "DocCam[6].CameraIsOn"
+				},
+				"28": {
+					"3": "DocCam[7].CameraIsOn"
+				},
+				"29": {
+					"1": "Airmedia[0].OUTSyncDetected",
+					"2": "Airmedia[0].OUTInterlaced",
+					"3": "Airmedia[0].OutCECError",
+					"4": "Airmedia[0].OUTDisabledByHDCP",
+					"5": "Airmedia[0].InSyncDetectedFB",
+					"6": "Airmedia[0].INInterlacedFB",
+					"7": "Airmedia[0].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[0].RebootRequired",
+					"12": "Airmedia[0].MiracastEnabledFB",
+					"13": "Airmedia[0].WifiDongleConnectedFB",
+					"14": "Airmedia[0].DeviceOfflineFB"
+				},
+				"30": {
+					"1": "Airmedia[1].OUTSyncDetected",
+					"2": "Airmedia[1].OUTInterlaced",
+					"3": "Airmedia[1].OutCECError",
+					"4": "Airmedia[1].OUTDisabledByHDCP",
+					"5": "Airmedia[1].InSyncDetectedFB",
+					"6": "Airmedia[1].INInterlacedFB",
+					"7": "Airmedia[1].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[1].RebootRequired",
+					"12": "Airmedia[1].MiracastEnabledFB",
+					"13": "Airmedia[1].WifiDongleConnectedFB",
+					"14": "Airmedia[1].DeviceOfflineFB"
+				},
+				"31": {
+					"1": "Airmedia[2].OUTSyncDetected",
+					"2": "Airmedia[2].OUTInterlaced",
+					"3": "Airmedia[2].OutCECError",
+					"4": "Airmedia[2].OUTDisabledByHDCP",
+					"5": "Airmedia[2].InSyncDetectedFB",
+					"6": "Airmedia[2].INInterlacedFB",
+					"7": "Airmedia[2].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[2].RebootRequired",
+					"12": "Airmedia[2].MiracastEnabledFB",
+					"13": "Airmedia[2].WifiDongleConnectedFB",
+					"14": "Airmedia[2].DeviceOfflineFB"
+				},
+				"32": {
+					"1": "Airmedia[3].OUTSyncDetected",
+					"2": "Airmedia[3].OUTInterlaced",
+					"3": "Airmedia[3].OutCECError",
+					"4": "Airmedia[3].OUTDisabledByHDCP",
+					"5": "Airmedia[3].InSyncDetectedFB",
+					"6": "Airmedia[3].INInterlacedFB",
+					"7": "Airmedia[3].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[3].RebootRequired",
+					"12": "Airmedia[3].MiracastEnabledFB",
+					"13": "Airmedia[3].WifiDongleConnectedFB",
+					"14": "Airmedia[3].DeviceOfflineFB"
+				},
+				"33": {
+					"1": "Airmedia[4].OUTSyncDetected",
+					"2": "Airmedia[4].OUTInterlaced",
+					"3": "Airmedia[4].OutCECError",
+					"4": "Airmedia[4].OUTDisabledByHDCP",
+					"5": "Airmedia[4].InSyncDetectedFB",
+					"6": "Airmedia[4].INInterlacedFB",
+					"7": "Airmedia[4].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[4].RebootRequired",
+					"12": "Airmedia[4].MiracastEnabledFB",
+					"13": "Airmedia[4].WifiDongleConnectedFB",
+					"14": "Airmedia[4].DeviceOfflineFB"
+				},
+				"34": {
+					"1": "Airmedia[5].OUTSyncDetected",
+					"2": "Airmedia[5].OUTInterlaced",
+					"3": "Airmedia[5].OutCECError",
+					"4": "Airmedia[5].OUTDisabledByHDCP",
+					"5": "Airmedia[5].InSyncDetectedFB",
+					"6": "Airmedia[5].INInterlacedFB",
+					"7": "Airmedia[5].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[5].RebootRequired",
+					"12": "Airmedia[5].MiracastEnabledFB",
+					"13": "Airmedia[5].WifiDongleConnectedFB",
+					"14": "Airmedia[5].DeviceOfflineFB"
+				},
+				"35": {
+					"1": "Airmedia[6].OUTSyncDetected",
+					"2": "Airmedia[6].OUTInterlaced",
+					"3": "Airmedia[6].OutCECError",
+					"4": "Airmedia[6].OUTDisabledByHDCP",
+					"5": "Airmedia[6].InSyncDetectedFB",
+					"6": "Airmedia[6].INInterlacedFB",
+					"7": "Airmedia[6].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[6].RebootRequired",
+					"12": "Airmedia[6].MiracastEnabledFB",
+					"13": "Airmedia[6].WifiDongleConnectedFB",
+					"14": "Airmedia[6].DeviceOfflineFB"
+				},
+				"36": {
+					"1": "Airmedia[7].OUTSyncDetected",
+					"2": "Airmedia[7].OUTInterlaced",
+					"3": "Airmedia[7].OutCECError",
+					"4": "Airmedia[7].OUTDisabledByHDCP",
+					"5": "Airmedia[7].InSyncDetectedFB",
+					"6": "Airmedia[7].INInterlacedFB",
+					"7": "Airmedia[7].AutomaticRoutingEnabledFB",
+					"10": "Airmedia[7].RebootRequired",
+					"12": "Airmedia[7].MiracastEnabledFB",
+					"13": "Airmedia[7].WifiDongleConnectedFB",
+					"14": "Airmedia[7].DeviceOfflineFB"
+				},
+				"37": {
+					"19": "LectureCapture[0].IsCommunicatingWdevice"
+				},
+				"38": {
+					"19": "LectureCapture[1].IsCommunicatingWdevice"
+				},
+				"39": {
+					"19": "LectureCapture[2].IsCommunicatingWdevice"
+				},
+				"40": {
+					"19": "LectureCapture[3].IsCommunicatingWdevice"
+				},
+				"41": {
+					"19": "LectureCapture[4].IsCommunicatingWdevice"
+				},
+				"42": {
+					"19": "LectureCapture[5].IsCommunicatingWdevice"
+				},
+				"43": {
+					"19": "LectureCapture[6].IsCommunicatingWdevice"
+				},
+				"44": {
+					"19": "LectureCapture[7].IsCommunicatingWdevice"
+				},
+				"45": {
+					"2": "Camera[0].AutoTrackingIsOn",
+					"4": "Camera[0].AutoTrackingIsOFf",
+					"13": "Camera[0].CameraFocusAutoIsOn",
+					"15": "Camera[0].CameraFocusManualIsOn",
+					"20": "Camera[0].CameraExposureAutoIsOn",
+					"22": "Camera[0].CameraExposureManualIsOn"
+				},
+				"46": {
+					"2": "Camera[1].AutoTrackingIsOn",
+					"4": "Camera[1].AutoTrackingIsOFf",
+					"13": "Camera[1].CameraFocusAutoIsOn",
+					"15": "Camera[1].CameraFocusManualIsOn",
+					"20": "Camera[1].CameraExposureAutoIsOn",
+					"22": "Camera[1].CameraExposureManualIsOn"
+				},
+				"47": {
+					"2": "Camera[2].AutoTrackingIsOn",
+					"4": "Camera[2].AutoTrackingIsOFf",
+					"13": "Camera[2].CameraFocusAutoIsOn",
+					"15": "Camera[2].CameraFocusManualIsOn",
+					"20": "Camera[2].CameraExposureAutoIsOn",
+					"22": "Camera[2].CameraExposureManualIsOn"
+				},
+				"48": {
+					"2": "Camera[3].AutoTrackingIsOn",
+					"4": "Camera[3].AutoTrackingIsOFf",
+					"13": "Camera[3].CameraFocusAutoIsOn",
+					"15": "Camera[3].CameraFocusManualIsOn",
+					"20": "Camera[3].CameraExposureAutoIsOn",
+					"22": "Camera[3].CameraExposureManualIsOn"
+				},
+				"49": {
+					"2": "Camera[4].AutoTrackingIsOn",
+					"4": "Camera[4].AutoTrackingIsOFf",
+					"13": "Camera[4].CameraFocusAutoIsOn",
+					"15": "Camera[4].CameraFocusManualIsOn",
+					"20": "Camera[4].CameraExposureAutoIsOn",
+					"22": "Camera[4].CameraExposureManualIsOn"
+				},
+				"50": {
+					"2": "Camera[5].AutoTrackingIsOn",
+					"4": "Camera[5].AutoTrackingIsOFf",
+					"13": "Camera[5].CameraFocusAutoIsOn",
+					"15": "Camera[5].CameraFocusManualIsOn",
+					"20": "Camera[5].CameraExposureAutoIsOn",
+					"22": "Camera[5].CameraExposureManualIsOn"
+				},
+				"51": {
+					"2": "Camera[6].AutoTrackingIsOn",
+					"4": "Camera[6].AutoTrackingIsOFf",
+					"13": "Camera[6].CameraFocusAutoIsOn",
+					"15": "Camera[6].CameraFocusManualIsOn",
+					"20": "Camera[6].CameraExposureAutoIsOn",
+					"22": "Camera[6].CameraExposureManualIsOn"
+				},
+				"52": {
+					"2": "Camera[7].AutoTrackingIsOn",
+					"4": "Camera[7].AutoTrackingIsOFf",
+					"13": "Camera[7].CameraFocusAutoIsOn",
+					"15": "Camera[7].CameraFocusManualIsOn",
+					"20": "Camera[7].CameraExposureAutoIsOn",
+					"22": "Camera[7].CameraExposureManualIsOn"
+				}
+			},
+			"numeric": {
+				"2": {
+					"1": "FullDeviceControl.Status",
+					"2": "FullDeviceControl.NumberofUsersCon"
+				},
+				"3": {
+					"1": "MPC3201B.PowerState",
+					"2": "MPC3201B.Bargraph",
+					"3": "MPC3201B.SourceFb",
+					"4": "MPC3201B.SourceBtnCount"
+				},
+				"4": {
+					"1": "Settings.S1IconIDFromControlSystem",
+					"2": "Settings.S2IconIDFromControlSystem",
+					"3": "Settings.S3IconIDFromControlSystem",
+					"4": "Settings.S4IconIDFromControlSystem",
+					"5": "Settings.S5IconIDFromControlSystem",
+					"6": "Settings.S6IconIDFromControlSystem",
+					"7": "Settings.S7IconIDFromControlSystem",
+					"8": "Settings.S8IconIDFromControlSystem",
+					"21": "Settings.Line1GainIs",
+					"22": "Settings.Line2GainIs",
+					"23": "Settings.Line3GainIs",
+					"24": "Settings.Line4GainIs",
+					"27": "Settings.Mic1GainIs",
+					"28": "Settings.Mic2GainIs",
+					"37": "Settings.SourceCntrlIDfromcntrlSys1",
+					"38": "Settings.SourceCntrlIDfromcntrlSys2",
+					"39": "Settings.SourceCntrlIDfromcntrlSys3",
+					"40": "Settings.SourceCntrlIDfromcntrlSys4",
+					"41": "Settings.SourceCntrlIDfromcntrlSys5",
+					"42": "Settings.SourceCntrlIDfromcntrlSys6",
+					"43": "Settings.SourceCntrlIDfromcntrlSys7",
+					"44": "Settings.SourceCntrlIDfromcntrlSys8"
+				},
+				"5": {
+					"1": "Text[0].DeviceConnectionOptionIcon1",
+					"2": "Text[0].DeviceConnectionOptionIcon2",
+					"3": "Text[0].DeviceConnectionOptionIcon3",
+					"4": "Text[0].DeviceConnectionOptionIcon4"
+				},
+				"6": {
+					"1": "Text[1].DeviceConnectionOptionIcon1",
+					"2": "Text[1].DeviceConnectionOptionIcon2",
+					"3": "Text[1].DeviceConnectionOptionIcon3",
+					"4": "Text[1].DeviceConnectionOptionIcon4"
+				},
+				"7": {
+					"1": "Text[2].DeviceConnectionOptionIcon1",
+					"2": "Text[2].DeviceConnectionOptionIcon2",
+					"3": "Text[2].DeviceConnectionOptionIcon3",
+					"4": "Text[2].DeviceConnectionOptionIcon4"
+				},
+				"8": {
+					"1": "Text[3].DeviceConnectionOptionIcon1",
+					"2": "Text[3].DeviceConnectionOptionIcon2",
+					"3": "Text[3].DeviceConnectionOptionIcon3",
+					"4": "Text[3].DeviceConnectionOptionIcon4"
+				},
+				"9": {
+					"1": "Text[4].DeviceConnectionOptionIcon1",
+					"2": "Text[4].DeviceConnectionOptionIcon2",
+					"3": "Text[4].DeviceConnectionOptionIcon3",
+					"4": "Text[4].DeviceConnectionOptionIcon4"
+				},
+				"10": {
+					"1": "Text[5].DeviceConnectionOptionIcon1",
+					"2": "Text[5].DeviceConnectionOptionIcon2",
+					"3": "Text[5].DeviceConnectionOptionIcon3",
+					"4": "Text[5].DeviceConnectionOptionIcon4"
+				},
+				"11": {
+					"1": "Text[6].DeviceConnectionOptionIcon1",
+					"2": "Text[6].DeviceConnectionOptionIcon2",
+					"3": "Text[6].DeviceConnectionOptionIcon3",
+					"4": "Text[6].DeviceConnectionOptionIcon4"
+				},
+				"12": {
+					"1": "Text[7].DeviceConnectionOptionIcon1",
+					"2": "Text[7].DeviceConnectionOptionIcon2",
+					"3": "Text[7].DeviceConnectionOptionIcon3",
+					"4": "Text[7].DeviceConnectionOptionIcon4"
+				},
+				"13": {
+					"1": "MediaPlayer[0].MediaPlayerStatus"
+				},
+				"14": {
+					"1": "MediaPlayer[1].MediaPlayerStatus"
+				},
+				"15": {
+					"1": "MediaPlayer[2].MediaPlayerStatus"
+				},
+				"16": {
+					"1": "MediaPlayer[3].MediaPlayerStatus"
+				},
+				"17": {
+					"1": "MediaPlayer[4].MediaPlayerStatus"
+				},
+				"18": {
+					"1": "MediaPlayer[5].MediaPlayerStatus"
+				},
+				"19": {
+					"1": "MediaPlayer[6].MediaPlayerStatus"
+				},
+				"20": {
+					"1": "MediaPlayer[7].MediaPlayerStatus"
+				},
+				"29": {
+					"1": "Airmedia[0].Status",
+					"2": "Airmedia[0].NumberOfUsersCon",
+					"4": "Airmedia[0].LoginCodeAnalog",
+					"5": "Airmedia[0].OUTResolutionFB",
+					"6": "Airmedia[0].OUTFPSFB",
+					"7": "Airmedia[0].OUTAspectRatioFB",
+					"8": "Airmedia[0].OUTAudioFormatFb",
+					"9": "Airmedia[0].OUTHDCPModeFB",
+					"10": "Airmedia[0].InHorizontalRes",
+					"11": "Airmedia[0].InVerticalRes",
+					"12": "Airmedia[0].InFPSFB",
+					"13": "Airmedia[0].InAspectRatio",
+					"14": "Airmedia[0].InAudioFormat",
+					"16": "Airmedia[0].VideoOutFB",
+					"17": "Airmedia[0].ActiveVideoFB",
+					"19": "Airmedia[0].DigitalSignageStateFB",
+					"20": "Airmedia[0].LoginCodeFB",
+					"21": "Airmedia[0].StatusFb",
+					"22": "Airmedia[0].NumberofUsersConnectedfb",
+					"23": "Airmedia[0].NumberofUsersPresentingFB"
+				},
+				"30": {
+					"1": "Airmedia[1].Status",
+					"2": "Airmedia[1].NumberOfUsersCon",
+					"4": "Airmedia[1].LoginCodeAnalog",
+					"5": "Airmedia[1].OUTResolutionFB",
+					"6": "Airmedia[1].OUTFPSFB",
+					"7": "Airmedia[1].OUTAspectRatioFB",
+					"8": "Airmedia[1].OUTAudioFormatFb",
+					"9": "Airmedia[1].OUTHDCPModeFB",
+					"10": "Airmedia[1].InHorizontalRes",
+					"11": "Airmedia[1].InVerticalRes",
+					"12": "Airmedia[1].InFPSFB",
+					"13": "Airmedia[1].InAspectRatio",
+					"14": "Airmedia[1].InAudioFormat",
+					"16": "Airmedia[1].VideoOutFB",
+					"17": "Airmedia[1].ActiveVideoFB",
+					"19": "Airmedia[1].DigitalSignageStateFB",
+					"20": "Airmedia[1].LoginCodeFB",
+					"21": "Airmedia[1].StatusFb",
+					"22": "Airmedia[1].NumberofUsersConnectedfb",
+					"23": "Airmedia[1].NumberofUsersPresentingFB"
+				},
+				"31": {
+					"1": "Airmedia[2].Status",
+					"2": "Airmedia[2].NumberOfUsersCon",
+					"4": "Airmedia[2].LoginCodeAnalog",
+					"5": "Airmedia[2].OUTResolutionFB",
+					"6": "Airmedia[2].OUTFPSFB",
+					"7": "Airmedia[2].OUTAspectRatioFB",
+					"8": "Airmedia[2].OUTAudioFormatFb",
+					"9": "Airmedia[2].OUTHDCPModeFB",
+					"10": "Airmedia[2].InHorizontalRes",
+					"11": "Airmedia[2].InVerticalRes",
+					"12": "Airmedia[2].InFPSFB",
+					"13": "Airmedia[2].InAspectRatio",
+					"14": "Airmedia[2].InAudioFormat",
+					"16": "Airmedia[2].VideoOutFB",
+					"17": "Airmedia[2].ActiveVideoFB",
+					"19": "Airmedia[2].DigitalSignageStateFB",
+					"20": "Airmedia[2].LoginCodeFB",
+					"21": "Airmedia[2].StatusFb",
+					"22": "Airmedia[2].NumberofUsersConnectedfb",
+					"23": "Airmedia[2].NumberofUsersPresentingFB"
+				},
+				"32": {
+					"1": "Airmedia[3].Status",
+					"2": "Airmedia[3].NumberOfUsersCon",
+					"4": "Airmedia[3].LoginCodeAnalog",
+					"5": "Airmedia[3].OUTResolutionFB",
+					"6": "Airmedia[3].OUTFPSFB",
+					"7": "Airmedia[3].OUTAspectRatioFB",
+					"8": "Airmedia[3].OUTAudioFormatFb",
+					"9": "Airmedia[3].OUTHDCPModeFB",
+					"10": "Airmedia[3].InHorizontalRes",
+					"11": "Airmedia[3].InVerticalRes",
+					"12": "Airmedia[3].InFPSFB",
+					"13": "Airmedia[3].InAspectRatio",
+					"14": "Airmedia[3].InAudioFormat",
+					"16": "Airmedia[3].VideoOutFB",
+					"17": "Airmedia[3].ActiveVideoFB",
+					"19": "Airmedia[3].DigitalSignageStateFB",
+					"20": "Airmedia[3].LoginCodeFB",
+					"21": "Airmedia[3].StatusFb",
+					"22": "Airmedia[3].NumberofUsersConnectedfb",
+					"23": "Airmedia[3].NumberofUsersPresentingFB"
+				},
+				"33": {
+					"1": "Airmedia[4].Status",
+					"2": "Airmedia[4].NumberOfUsersCon",
+					"4": "Airmedia[4].LoginCodeAnalog",
+					"5": "Airmedia[4].OUTResolutionFB",
+					"6": "Airmedia[4].OUTFPSFB",
+					"7": "Airmedia[4].OUTAspectRatioFB",
+					"8": "Airmedia[4].OUTAudioFormatFb",
+					"9": "Airmedia[4].OUTHDCPModeFB",
+					"10": "Airmedia[4].InHorizontalRes",
+					"11": "Airmedia[4].InVerticalRes",
+					"12": "Airmedia[4].InFPSFB",
+					"13": "Airmedia[4].InAspectRatio",
+					"14": "Airmedia[4].InAudioFormat",
+					"16": "Airmedia[4].VideoOutFB",
+					"17": "Airmedia[4].ActiveVideoFB",
+					"19": "Airmedia[4].DigitalSignageStateFB",
+					"20": "Airmedia[4].LoginCodeFB",
+					"21": "Airmedia[4].StatusFb",
+					"22": "Airmedia[4].NumberofUsersConnectedfb",
+					"23": "Airmedia[4].NumberofUsersPresentingFB"
+				},
+				"34": {
+					"1": "Airmedia[5].Status",
+					"2": "Airmedia[5].NumberOfUsersCon",
+					"4": "Airmedia[5].LoginCodeAnalog",
+					"5": "Airmedia[5].OUTResolutionFB",
+					"6": "Airmedia[5].OUTFPSFB",
+					"7": "Airmedia[5].OUTAspectRatioFB",
+					"8": "Airmedia[5].OUTAudioFormatFb",
+					"9": "Airmedia[5].OUTHDCPModeFB",
+					"10": "Airmedia[5].InHorizontalRes",
+					"11": "Airmedia[5].InVerticalRes",
+					"12": "Airmedia[5].InFPSFB",
+					"13": "Airmedia[5].InAspectRatio",
+					"14": "Airmedia[5].InAudioFormat",
+					"16": "Airmedia[5].VideoOutFB",
+					"17": "Airmedia[5].ActiveVideoFB",
+					"19": "Airmedia[5].DigitalSignageStateFB",
+					"20": "Airmedia[5].LoginCodeFB",
+					"21": "Airmedia[5].StatusFb",
+					"22": "Airmedia[5].NumberofUsersConnectedfb",
+					"23": "Airmedia[5].NumberofUsersPresentingFB"
+				},
+				"35": {
+					"1": "Airmedia[6].Status",
+					"2": "Airmedia[6].NumberOfUsersCon",
+					"4": "Airmedia[6].LoginCodeAnalog",
+					"5": "Airmedia[6].OUTResolutionFB",
+					"6": "Airmedia[6].OUTFPSFB",
+					"7": "Airmedia[6].OUTAspectRatioFB",
+					"8": "Airmedia[6].OUTAudioFormatFb",
+					"9": "Airmedia[6].OUTHDCPModeFB",
+					"10": "Airmedia[6].InHorizontalRes",
+					"11": "Airmedia[6].InVerticalRes",
+					"12": "Airmedia[6].InFPSFB",
+					"13": "Airmedia[6].InAspectRatio",
+					"14": "Airmedia[6].InAudioFormat",
+					"16": "Airmedia[6].VideoOutFB",
+					"17": "Airmedia[6].ActiveVideoFB",
+					"19": "Airmedia[6].DigitalSignageStateFB",
+					"20": "Airmedia[6].LoginCodeFB",
+					"21": "Airmedia[6].StatusFb",
+					"22": "Airmedia[6].NumberofUsersConnectedfb",
+					"23": "Airmedia[6].NumberofUsersPresentingFB"
+				},
+				"36": {
+					"1": "Airmedia[7].Status",
+					"2": "Airmedia[7].NumberOfUsersCon",
+					"4": "Airmedia[7].LoginCodeAnalog",
+					"5": "Airmedia[7].OUTResolutionFB",
+					"6": "Airmedia[7].OUTFPSFB",
+					"7": "Airmedia[7].OUTAspectRatioFB",
+					"8": "Airmedia[7].OUTAudioFormatFb",
+					"9": "Airmedia[7].OUTHDCPModeFB",
+					"10": "Airmedia[7].InHorizontalRes",
+					"11": "Airmedia[7].InVerticalRes",
+					"12": "Airmedia[7].InFPSFB",
+					"13": "Airmedia[7].InAspectRatio",
+					"14": "Airmedia[7].InAudioFormat",
+					"16": "Airmedia[7].VideoOutFB",
+					"17": "Airmedia[7].ActiveVideoFB",
+					"19": "Airmedia[7].DigitalSignageStateFB",
+					"20": "Airmedia[7].LoginCodeFB",
+					"21": "Airmedia[7].StatusFb",
+					"22": "Airmedia[7].NumberofUsersConnectedfb",
+					"23": "Airmedia[7].NumberofUsersPresentingFB"
+				},
+				"37": {
+					"1": "LectureCapture[0].NumberOfRecordersAvailable"
+				},
+				"38": {
+					"1": "LectureCapture[1].NumberOfRecordersAvailable"
+				},
+				"39": {
+					"1": "LectureCapture[2].NumberOfRecordersAvailable"
+				},
+				"40": {
+					"1": "LectureCapture[3].NumberOfRecordersAvailable"
+				},
+				"41": {
+					"1": "LectureCapture[4].NumberOfRecordersAvailable"
+				},
+				"42": {
+					"1": "LectureCapture[5].NumberOfRecordersAvailable"
+				},
+				"43": {
+					"1": "LectureCapture[6].NumberOfRecordersAvailable"
+				},
+				"44": {
+					"1": "LectureCapture[7].NumberOfRecordersAvailable"
+				},
+				"53": {
+					"1": "Laptop[0].DeviceConnectionOptionIcon1",
+					"2": "Laptop[0].DeviceConnectionOptionIcon2",
+					"3": "Laptop[0].DeviceConnectionOptionIcon3",
+					"4": "Laptop[0].DeviceConnectionOptionIcon4"
+				},
+				"54": {
+					"1": "Laptop[1].DeviceConnectionOptionIcon1",
+					"2": "Laptop[1].DeviceConnectionOptionIcon2",
+					"3": "Laptop[1].DeviceConnectionOptionIcon3",
+					"4": "Laptop[1].DeviceConnectionOptionIcon4"
+				},
+				"55": {
+					"1": "Laptop[2].DeviceConnectionOptionIcon1",
+					"2": "Laptop[2].DeviceConnectionOptionIcon2",
+					"3": "Laptop[2].DeviceConnectionOptionIcon3",
+					"4": "Laptop[2].DeviceConnectionOptionIcon4"
+				},
+				"56": {
+					"1": "Laptop[3].DeviceConnectionOptionIcon1",
+					"2": "Laptop[3].DeviceConnectionOptionIcon2",
+					"3": "Laptop[3].DeviceConnectionOptionIcon3",
+					"4": "Laptop[3].DeviceConnectionOptionIcon4"
+				},
+				"57": {
+					"1": "Laptop[4].DeviceConnectionOptionIcon1",
+					"2": "Laptop[4].DeviceConnectionOptionIcon2",
+					"3": "Laptop[4].DeviceConnectionOptionIcon3",
+					"4": "Laptop[4].DeviceConnectionOptionIcon4"
+				},
+				"58": {
+					"1": "Laptop[5].DeviceConnectionOptionIcon1",
+					"2": "Laptop[5].DeviceConnectionOptionIcon2",
+					"3": "Laptop[5].DeviceConnectionOptionIcon3",
+					"4": "Laptop[5].DeviceConnectionOptionIcon4"
+				},
+				"59": {
+					"1": "Laptop[6].DeviceConnectionOptionIcon1",
+					"2": "Laptop[6].DeviceConnectionOptionIcon2",
+					"3": "Laptop[6].DeviceConnectionOptionIcon3",
+					"4": "Laptop[6].DeviceConnectionOptionIcon4"
+				},
+				"60": {
+					"1": "Laptop[7].DeviceConnectionOptionIcon1",
+					"2": "Laptop[7].DeviceConnectionOptionIcon2",
+					"3": "Laptop[7].DeviceConnectionOptionIcon3",
+					"4": "Laptop[7].DeviceConnectionOptionIcon4"
+				},
+				"61": {
+					"1": "RoomPC[0].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[0].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[0].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[0].DeviceConnectionOptionIcon4"
+				},
+				"62": {
+					"1": "RoomPC[1].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[1].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[1].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[1].DeviceConnectionOptionIcon4"
+				},
+				"63": {
+					"1": "RoomPC[2].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[2].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[2].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[2].DeviceConnectionOptionIcon4"
+				},
+				"64": {
+					"1": "RoomPC[3].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[3].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[3].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[3].DeviceConnectionOptionIcon4"
+				},
+				"65": {
+					"1": "RoomPC[4].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[4].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[4].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[4].DeviceConnectionOptionIcon4"
+				},
+				"66": {
+					"1": "RoomPC[5].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[5].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[5].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[5].DeviceConnectionOptionIcon4"
+				},
+				"67": {
+					"1": "RoomPC[6].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[6].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[6].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[6].DeviceConnectionOptionIcon4"
+				},
+				"68": {
+					"1": "RoomPC[7].DeviceConnectionOptionIcon1",
+					"2": "RoomPC[7].DeviceConnectionOptionIcon2",
+					"3": "RoomPC[7].DeviceConnectionOptionIcon3",
+					"4": "RoomPC[7].DeviceConnectionOptionIcon4"
+				}
+			},
+			"string": {
+				"1": {
+					"3": "Diagnostics.Command"
+				},
+				"2": {
+					"1": "FullDeviceControl.ConnectionAddress",
+					"2": "FullDeviceControl.LoginCodeText",
+					"3": "FullDeviceControl.IPAddressText",
+					"4": "FullDeviceControl.HostnameText"
+				},
+				"3": {
+					"1": "MPC3201B.RoomName",
+					"2": "MPC3201B.Source1Name",
+					"3": "MPC3201B.Source2Name",
+					"4": "MPC3201B.Source3Name",
+					"5": "MPC3201B.Source4Name",
+					"6": "MPC3201B.Source5Name",
+					"7": "MPC3201B.Source6Name",
+					"8": "MPC3201B.LampHours",
+					"10": "MPC3201B.Source7Name",
+					"11": "MPC3201B.Source8Name",
+					"12": "MPC3201B.HelpText"
+				},
+				"4": {
+					"1": "Settings.SetPassword",
+					"3": "Settings.IPAdress"
+				},
+				"5": {
+					"1": "Text[0].Line1Text",
+					"2": "Text[0].Line2Text",
+					"3": "Text[0].Line3Text",
+					"4": "Text[0].Line4Text",
+					"5": "Text[0].HeaderText"
+				},
+				"6": {
+					"1": "Text[1].Line1Text",
+					"2": "Text[1].Line2Text",
+					"3": "Text[1].Line3Text",
+					"4": "Text[1].Line4Text",
+					"5": "Text[1].HeaderText"
+				},
+				"7": {
+					"1": "Text[2].Line1Text",
+					"2": "Text[2].Line2Text",
+					"3": "Text[2].Line3Text",
+					"4": "Text[2].Line4Text",
+					"5": "Text[2].HeaderText"
+				},
+				"8": {
+					"1": "Text[3].Line1Text",
+					"2": "Text[3].Line2Text",
+					"3": "Text[3].Line3Text",
+					"4": "Text[3].Line4Text",
+					"5": "Text[3].HeaderText"
+				},
+				"9": {
+					"1": "Text[4].Line1Text",
+					"2": "Text[4].Line2Text",
+					"3": "Text[4].Line3Text",
+					"4": "Text[4].Line4Text",
+					"5": "Text[4].HeaderText"
+				},
+				"10": {
+					"1": "Text[5].Line1Text",
+					"2": "Text[5].Line2Text",
+					"3": "Text[5].Line3Text",
+					"4": "Text[5].Line4Text",
+					"5": "Text[5].HeaderText"
+				},
+				"11": {
+					"1": "Text[6].Line1Text",
+					"2": "Text[6].Line2Text",
+					"3": "Text[6].Line3Text",
+					"4": "Text[6].Line4Text",
+					"5": "Text[6].HeaderText"
+				},
+				"12": {
+					"1": "Text[7].Line1Text",
+					"2": "Text[7].Line2Text",
+					"3": "Text[7].Line3Text",
+					"4": "Text[7].Line4Text",
+					"5": "Text[7].HeaderText"
+				},
+				"13": {
+					"1": "MediaPlayer[0].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[0].MediaPlayerDuration"
+				},
+				"14": {
+					"1": "MediaPlayer[1].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[1].MediaPlayerDuration"
+				},
+				"15": {
+					"1": "MediaPlayer[2].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[2].MediaPlayerDuration"
+				},
+				"16": {
+					"1": "MediaPlayer[3].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[3].MediaPlayerDuration"
+				},
+				"17": {
+					"1": "MediaPlayer[4].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[4].MediaPlayerDuration"
+				},
+				"18": {
+					"1": "MediaPlayer[5].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[5].MediaPlayerDuration"
+				},
+				"19": {
+					"1": "MediaPlayer[6].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[6].MediaPlayerDuration"
+				},
+				"20": {
+					"1": "MediaPlayer[7].MediaPlayerCurrentTime",
+					"2": "MediaPlayer[7].MediaPlayerDuration"
+				},
+				"29": {
+					"1": "Airmedia[0].LoginCodeText",
+					"2": "Airmedia[0].IPAddressText",
+					"3": "Airmedia[0].HostNameText",
+					"7": "Airmedia[0].DigitalSignageURLFB",
+					"9": "Airmedia[0].LoginCodeTextFB",
+					"10": "Airmedia[0].IPAddressTextFB",
+					"11": "Airmedia[0].HostnameTextFB"
+				},
+				"30": {
+					"1": "Airmedia[1].LoginCodeText",
+					"2": "Airmedia[1].IPAddressText",
+					"3": "Airmedia[1].HostNameText",
+					"7": "Airmedia[1].DigitalSignageURLFB",
+					"9": "Airmedia[1].LoginCodeTextFB",
+					"10": "Airmedia[1].IPAddressTextFB",
+					"11": "Airmedia[1].HostnameTextFB"
+				},
+				"31": {
+					"1": "Airmedia[2].LoginCodeText",
+					"2": "Airmedia[2].IPAddressText",
+					"3": "Airmedia[2].HostNameText",
+					"7": "Airmedia[2].DigitalSignageURLFB",
+					"9": "Airmedia[2].LoginCodeTextFB",
+					"10": "Airmedia[2].IPAddressTextFB",
+					"11": "Airmedia[2].HostnameTextFB"
+				},
+				"32": {
+					"1": "Airmedia[3].LoginCodeText",
+					"2": "Airmedia[3].IPAddressText",
+					"3": "Airmedia[3].HostNameText",
+					"7": "Airmedia[3].DigitalSignageURLFB",
+					"9": "Airmedia[3].LoginCodeTextFB",
+					"10": "Airmedia[3].IPAddressTextFB",
+					"11": "Airmedia[3].HostnameTextFB"
+				},
+				"33": {
+					"1": "Airmedia[4].LoginCodeText",
+					"2": "Airmedia[4].IPAddressText",
+					"3": "Airmedia[4].HostNameText",
+					"7": "Airmedia[4].DigitalSignageURLFB",
+					"9": "Airmedia[4].LoginCodeTextFB",
+					"10": "Airmedia[4].IPAddressTextFB",
+					"11": "Airmedia[4].HostnameTextFB"
+				},
+				"34": {
+					"1": "Airmedia[5].LoginCodeText",
+					"2": "Airmedia[5].IPAddressText",
+					"3": "Airmedia[5].HostNameText",
+					"7": "Airmedia[5].DigitalSignageURLFB",
+					"9": "Airmedia[5].LoginCodeTextFB",
+					"10": "Airmedia[5].IPAddressTextFB",
+					"11": "Airmedia[5].HostnameTextFB"
+				},
+				"35": {
+					"1": "Airmedia[6].LoginCodeText",
+					"2": "Airmedia[6].IPAddressText",
+					"3": "Airmedia[6].HostNameText",
+					"7": "Airmedia[6].DigitalSignageURLFB",
+					"9": "Airmedia[6].LoginCodeTextFB",
+					"10": "Airmedia[6].IPAddressTextFB",
+					"11": "Airmedia[6].HostnameTextFB"
+				},
+				"36": {
+					"1": "Airmedia[7].LoginCodeText",
+					"2": "Airmedia[7].IPAddressText",
+					"3": "Airmedia[7].HostNameText",
+					"7": "Airmedia[7].DigitalSignageURLFB",
+					"9": "Airmedia[7].LoginCodeTextFB",
+					"10": "Airmedia[7].IPAddressTextFB",
+					"11": "Airmedia[7].HostnameTextFB"
+				},
+				"37": {
+					"1": "LectureCapture[0].ChannelPreviewURLFB",
+					"2": "LectureCapture[0].UpcomingEventNameFB",
+					"3": "LectureCapture[0].UpcomingEventCountdownFB",
+					"4": "LectureCapture[0].CurrentEventNameFB",
+					"5": "LectureCapture[0].UsedSpaceSerial",
+					"6": "LectureCapture[0].TotalSpaceSerial",
+					"7": "LectureCapture[0].FreeSpaceSerial"
+				},
+				"38": {
+					"1": "LectureCapture[1].ChannelPreviewURLFB",
+					"2": "LectureCapture[1].UpcomingEventNameFB",
+					"3": "LectureCapture[1].UpcomingEventCountdownFB",
+					"4": "LectureCapture[1].CurrentEventNameFB",
+					"5": "LectureCapture[1].UsedSpaceSerial",
+					"6": "LectureCapture[1].TotalSpaceSerial",
+					"7": "LectureCapture[1].FreeSpaceSerial"
+				},
+				"39": {
+					"1": "LectureCapture[2].ChannelPreviewURLFB",
+					"2": "LectureCapture[2].UpcomingEventNameFB",
+					"3": "LectureCapture[2].UpcomingEventCountdownFB",
+					"4": "LectureCapture[2].CurrentEventNameFB",
+					"5": "LectureCapture[2].UsedSpaceSerial",
+					"6": "LectureCapture[2].TotalSpaceSerial",
+					"7": "LectureCapture[2].FreeSpaceSerial"
+				},
+				"40": {
+					"1": "LectureCapture[3].ChannelPreviewURLFB",
+					"2": "LectureCapture[3].UpcomingEventNameFB",
+					"3": "LectureCapture[3].UpcomingEventCountdownFB",
+					"4": "LectureCapture[3].CurrentEventNameFB",
+					"5": "LectureCapture[3].UsedSpaceSerial",
+					"6": "LectureCapture[3].TotalSpaceSerial",
+					"7": "LectureCapture[3].FreeSpaceSerial"
+				},
+				"41": {
+					"1": "LectureCapture[4].ChannelPreviewURLFB",
+					"2": "LectureCapture[4].UpcomingEventNameFB",
+					"3": "LectureCapture[4].UpcomingEventCountdownFB",
+					"4": "LectureCapture[4].CurrentEventNameFB",
+					"5": "LectureCapture[4].UsedSpaceSerial",
+					"6": "LectureCapture[4].TotalSpaceSerial",
+					"7": "LectureCapture[4].FreeSpaceSerial"
+				},
+				"42": {
+					"1": "LectureCapture[5].ChannelPreviewURLFB",
+					"2": "LectureCapture[5].UpcomingEventNameFB",
+					"3": "LectureCapture[5].UpcomingEventCountdownFB",
+					"4": "LectureCapture[5].CurrentEventNameFB",
+					"5": "LectureCapture[5].UsedSpaceSerial",
+					"6": "LectureCapture[5].TotalSpaceSerial",
+					"7": "LectureCapture[5].FreeSpaceSerial"
+				},
+				"43": {
+					"1": "LectureCapture[6].ChannelPreviewURLFB",
+					"2": "LectureCapture[6].UpcomingEventNameFB",
+					"3": "LectureCapture[6].UpcomingEventCountdownFB",
+					"4": "LectureCapture[6].CurrentEventNameFB",
+					"5": "LectureCapture[6].UsedSpaceSerial",
+					"6": "LectureCapture[6].TotalSpaceSerial",
+					"7": "LectureCapture[6].FreeSpaceSerial"
+				},
+				"44": {
+					"1": "LectureCapture[7].ChannelPreviewURLFB",
+					"2": "LectureCapture[7].UpcomingEventNameFB",
+					"3": "LectureCapture[7].UpcomingEventCountdownFB",
+					"4": "LectureCapture[7].CurrentEventNameFB",
+					"5": "LectureCapture[7].UsedSpaceSerial",
+					"6": "LectureCapture[7].TotalSpaceSerial",
+					"7": "LectureCapture[7].FreeSpaceSerial"
+				},
+				"45": {
+					"2": "Camera[0].AutoTrackerRX",
+					"3": "Camera[0].CameraVideoURL1",
+					"4": "Camera[0].CameraVideoURL2"
+				},
+				"46": {
+					"2": "Camera[1].AutoTrackerRX",
+					"3": "Camera[1].CameraVideoURL1",
+					"4": "Camera[1].CameraVideoURL2"
+				},
+				"47": {
+					"2": "Camera[2].AutoTrackerRX",
+					"3": "Camera[2].CameraVideoURL1",
+					"4": "Camera[2].CameraVideoURL2"
+				},
+				"48": {
+					"2": "Camera[3].AutoTrackerRX",
+					"3": "Camera[3].CameraVideoURL1",
+					"4": "Camera[3].CameraVideoURL2"
+				},
+				"49": {
+					"2": "Camera[4].AutoTrackerRX",
+					"3": "Camera[4].CameraVideoURL1",
+					"4": "Camera[4].CameraVideoURL2"
+				},
+				"50": {
+					"2": "Camera[5].AutoTrackerRX",
+					"3": "Camera[5].CameraVideoURL1",
+					"4": "Camera[5].CameraVideoURL2"
+				},
+				"51": {
+					"2": "Camera[6].AutoTrackerRX",
+					"3": "Camera[6].CameraVideoURL1",
+					"4": "Camera[6].CameraVideoURL2"
+				},
+				"52": {
+					"2": "Camera[7].AutoTrackerRX",
+					"3": "Camera[7].CameraVideoURL1",
+					"4": "Camera[7].CameraVideoURL2"
+				},
+				"53": {
+					"1": "Laptop[0].Line1Text",
+					"2": "Laptop[0].Line2Text",
+					"3": "Laptop[0].Line3Text",
+					"4": "Laptop[0].Line4Text",
+					"5": "Laptop[0].HeaderText"
+				},
+				"54": {
+					"1": "Laptop[1].Line1Text",
+					"2": "Laptop[1].Line2Text",
+					"3": "Laptop[1].Line3Text",
+					"4": "Laptop[1].Line4Text",
+					"5": "Laptop[1].HeaderText"
+				},
+				"55": {
+					"1": "Laptop[2].Line1Text",
+					"2": "Laptop[2].Line2Text",
+					"3": "Laptop[2].Line3Text",
+					"4": "Laptop[2].Line4Text",
+					"5": "Laptop[2].HeaderText"
+				},
+				"56": {
+					"1": "Laptop[3].Line1Text",
+					"2": "Laptop[3].Line2Text",
+					"3": "Laptop[3].Line3Text",
+					"4": "Laptop[3].Line4Text",
+					"5": "Laptop[3].HeaderText"
+				},
+				"57": {
+					"1": "Laptop[4].Line1Text",
+					"2": "Laptop[4].Line2Text",
+					"3": "Laptop[4].Line3Text",
+					"4": "Laptop[4].Line4Text",
+					"5": "Laptop[4].HeaderText"
+				},
+				"58": {
+					"1": "Laptop[5].Line1Text",
+					"2": "Laptop[5].Line2Text",
+					"3": "Laptop[5].Line3Text",
+					"4": "Laptop[5].Line4Text",
+					"5": "Laptop[5].HeaderText"
+				},
+				"59": {
+					"1": "Laptop[6].Line1Text",
+					"2": "Laptop[6].Line2Text",
+					"3": "Laptop[6].Line3Text",
+					"4": "Laptop[6].Line4Text",
+					"5": "Laptop[6].HeaderText"
+				},
+				"60": {
+					"1": "Laptop[7].Line1Text",
+					"2": "Laptop[7].Line2Text",
+					"3": "Laptop[7].Line3Text",
+					"4": "Laptop[7].Line4Text",
+					"5": "Laptop[7].HeaderText"
+				},
+				"61": {
+					"1": "RoomPC[0].Line1Text",
+					"2": "RoomPC[0].Line2Text",
+					"3": "RoomPC[0].Line3Text",
+					"4": "RoomPC[0].Line4Text",
+					"5": "RoomPC[0].HeaderText"
+				},
+				"62": {
+					"1": "RoomPC[1].Line1Text",
+					"2": "RoomPC[1].Line2Text",
+					"3": "RoomPC[1].Line3Text",
+					"4": "RoomPC[1].Line4Text",
+					"5": "RoomPC[1].HeaderText"
+				},
+				"63": {
+					"1": "RoomPC[2].Line1Text",
+					"2": "RoomPC[2].Line2Text",
+					"3": "RoomPC[2].Line3Text",
+					"4": "RoomPC[2].Line4Text",
+					"5": "RoomPC[2].HeaderText"
+				},
+				"64": {
+					"1": "RoomPC[3].Line1Text",
+					"2": "RoomPC[3].Line2Text",
+					"3": "RoomPC[3].Line3Text",
+					"4": "RoomPC[3].Line4Text",
+					"5": "RoomPC[3].HeaderText"
+				},
+				"65": {
+					"1": "RoomPC[4].Line1Text",
+					"2": "RoomPC[4].Line2Text",
+					"3": "RoomPC[4].Line3Text",
+					"4": "RoomPC[4].Line4Text",
+					"5": "RoomPC[4].HeaderText"
+				},
+				"66": {
+					"1": "RoomPC[5].Line1Text",
+					"2": "RoomPC[5].Line2Text",
+					"3": "RoomPC[5].Line3Text",
+					"4": "RoomPC[5].Line4Text",
+					"5": "RoomPC[5].HeaderText"
+				},
+				"67": {
+					"1": "RoomPC[6].Line1Text",
+					"2": "RoomPC[6].Line2Text",
+					"3": "RoomPC[6].Line3Text",
+					"4": "RoomPC[6].Line4Text",
+					"5": "RoomPC[6].HeaderText"
+				},
+				"68": {
+					"1": "RoomPC[7].Line1Text",
+					"2": "RoomPC[7].Line2Text",
+					"3": "RoomPC[7].Line3Text",
+					"4": "RoomPC[7].Line4Text",
+					"5": "RoomPC[7].HeaderText"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"FullDeviceControl.Power": {
+					"joinId": 1,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.Up": {
+					"joinId": 2,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.Down": {
+					"joinId": 3,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.Left": {
+					"joinId": 4,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.Right": {
+					"joinId": 5,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.Ok": {
+					"joinId": 6,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.Back": {
+					"joinId": 7,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.TV": {
+					"joinId": 8,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.PlayPause": {
+					"joinId": 9,
+					"smartObjectId": 2
+				},
+				"FullDeviceControl.MediaPlayer": {
+					"joinId": 14,
+					"smartObjectId": 2
+				},
+				"MPC3201B.Power": {
+					"joinId": 1,
+					"smartObjectId": 3
+				},
+				"MPC3201B.VolumeUp": {
+					"joinId": 2,
+					"smartObjectId": 3
+				},
+				"MPC3201B.VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 3
+				},
+				"MPC3201B.Mute": {
+					"joinId": 4,
+					"smartObjectId": 3
+				},
+				"MPC3201B.StartPageButton": {
+					"joinId": 6,
+					"smartObjectId": 3
+				},
+				"MPC3201B.ScreenUp": {
+					"joinId": 8,
+					"smartObjectId": 3
+				},
+				"MPC3201B.ScreenDown": {
+					"joinId": 9,
+					"smartObjectId": 3
+				},
+				"MPC3201B.MicrophoneMakeActive": {
+					"joinId": 14,
+					"smartObjectId": 3
+				},
+				"MPC3201B.MicrophoneMakeInactive": {
+					"joinId": 15,
+					"smartObjectId": 3
+				},
+				"Settings.GuiMicActivate": {
+					"joinId": 3,
+					"smartObjectId": 4
+				},
+				"Settings.GuiScreenActivate": {
+					"joinId": 4,
+					"smartObjectId": 4
+				},
+				"Settings.VideoBlankEnable": {
+					"joinId": 5,
+					"smartObjectId": 4
+				},
+				"MediaPlayer[0].up": {
+					"joinId": 1,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].down": {
+					"joinId": 2,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].left": {
+					"joinId": 3,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].right": {
+					"joinId": 4,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].OK": {
+					"joinId": 5,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Back": {
+					"joinId": 6,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].TV": {
+					"joinId": 7,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Pause": {
+					"joinId": 9,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Play": {
+					"joinId": 10,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Menu": {
+					"joinId": 11,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Red": {
+					"joinId": 13,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Blue": {
+					"joinId": 14,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Green": {
+					"joinId": 15,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Guide": {
+					"joinId": 17,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Info": {
+					"joinId": 18,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[0].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 13
+				},
+				"MediaPlayer[1].up": {
+					"joinId": 1,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].down": {
+					"joinId": 2,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].left": {
+					"joinId": 3,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].right": {
+					"joinId": 4,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].OK": {
+					"joinId": 5,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Back": {
+					"joinId": 6,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].TV": {
+					"joinId": 7,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Pause": {
+					"joinId": 9,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Play": {
+					"joinId": 10,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Menu": {
+					"joinId": 11,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Red": {
+					"joinId": 13,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Blue": {
+					"joinId": 14,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Green": {
+					"joinId": 15,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Guide": {
+					"joinId": 17,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Info": {
+					"joinId": 18,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[1].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 14
+				},
+				"MediaPlayer[2].up": {
+					"joinId": 1,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].down": {
+					"joinId": 2,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].left": {
+					"joinId": 3,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].right": {
+					"joinId": 4,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].OK": {
+					"joinId": 5,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Back": {
+					"joinId": 6,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].TV": {
+					"joinId": 7,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Pause": {
+					"joinId": 9,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Play": {
+					"joinId": 10,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Menu": {
+					"joinId": 11,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Red": {
+					"joinId": 13,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Blue": {
+					"joinId": 14,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Green": {
+					"joinId": 15,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Guide": {
+					"joinId": 17,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Info": {
+					"joinId": 18,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[2].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 15
+				},
+				"MediaPlayer[3].up": {
+					"joinId": 1,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].down": {
+					"joinId": 2,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].left": {
+					"joinId": 3,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].right": {
+					"joinId": 4,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].OK": {
+					"joinId": 5,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Back": {
+					"joinId": 6,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].TV": {
+					"joinId": 7,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Pause": {
+					"joinId": 9,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Play": {
+					"joinId": 10,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Menu": {
+					"joinId": 11,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Red": {
+					"joinId": 13,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Blue": {
+					"joinId": 14,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Green": {
+					"joinId": 15,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Guide": {
+					"joinId": 17,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Info": {
+					"joinId": 18,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[3].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 16
+				},
+				"MediaPlayer[4].up": {
+					"joinId": 1,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].down": {
+					"joinId": 2,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].left": {
+					"joinId": 3,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].right": {
+					"joinId": 4,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].OK": {
+					"joinId": 5,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Back": {
+					"joinId": 6,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].TV": {
+					"joinId": 7,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Pause": {
+					"joinId": 9,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Play": {
+					"joinId": 10,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Menu": {
+					"joinId": 11,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Red": {
+					"joinId": 13,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Blue": {
+					"joinId": 14,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Green": {
+					"joinId": 15,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Guide": {
+					"joinId": 17,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Info": {
+					"joinId": 18,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[4].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 17
+				},
+				"MediaPlayer[5].up": {
+					"joinId": 1,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].down": {
+					"joinId": 2,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].left": {
+					"joinId": 3,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].right": {
+					"joinId": 4,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].OK": {
+					"joinId": 5,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Back": {
+					"joinId": 6,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].TV": {
+					"joinId": 7,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Pause": {
+					"joinId": 9,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Play": {
+					"joinId": 10,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Menu": {
+					"joinId": 11,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Red": {
+					"joinId": 13,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Blue": {
+					"joinId": 14,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Green": {
+					"joinId": 15,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Guide": {
+					"joinId": 17,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Info": {
+					"joinId": 18,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[5].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 18
+				},
+				"MediaPlayer[6].up": {
+					"joinId": 1,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].down": {
+					"joinId": 2,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].left": {
+					"joinId": 3,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].right": {
+					"joinId": 4,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].OK": {
+					"joinId": 5,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Back": {
+					"joinId": 6,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].TV": {
+					"joinId": 7,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Pause": {
+					"joinId": 9,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Play": {
+					"joinId": 10,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Menu": {
+					"joinId": 11,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Red": {
+					"joinId": 13,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Blue": {
+					"joinId": 14,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Green": {
+					"joinId": 15,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Guide": {
+					"joinId": 17,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Info": {
+					"joinId": 18,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[6].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 19
+				},
+				"MediaPlayer[7].up": {
+					"joinId": 1,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].down": {
+					"joinId": 2,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].left": {
+					"joinId": 3,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].right": {
+					"joinId": 4,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].OK": {
+					"joinId": 5,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Back": {
+					"joinId": 6,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].TV": {
+					"joinId": 7,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].PlayPause": {
+					"joinId": 8,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Pause": {
+					"joinId": 9,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Play": {
+					"joinId": 10,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Menu": {
+					"joinId": 11,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].SmartTVControl": {
+					"joinId": 12,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Red": {
+					"joinId": 13,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Blue": {
+					"joinId": 14,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Green": {
+					"joinId": 15,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Yellow": {
+					"joinId": 16,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Guide": {
+					"joinId": 17,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Info": {
+					"joinId": 18,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].Favorites": {
+					"joinId": 19,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].PowerOn": {
+					"joinId": 20,
+					"smartObjectId": 20
+				},
+				"MediaPlayer[7].PowerOff": {
+					"joinId": 21,
+					"smartObjectId": 20
+				},
+				"DocCam[0].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 21
+				},
+				"DocCam[0].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 21
+				},
+				"DocCam[0].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 21
+				},
+				"DocCam[0].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 21
+				},
+				"DocCam[0].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 21
+				},
+				"DocCam[0].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 21
+				},
+				"DocCam[0].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 21
+				},
+				"DocCam[0].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 21
+				},
+				"DocCam[0].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 21
+				},
+				"DocCam[0].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 21
+				},
+				"DocCam[0].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 21
+				},
+				"DocCam[0].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 21
+				},
+				"DocCam[0].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 21
+				},
+				"DocCam[0].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 21
+				},
+				"DocCam[1].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 22
+				},
+				"DocCam[1].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 22
+				},
+				"DocCam[1].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 22
+				},
+				"DocCam[1].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 22
+				},
+				"DocCam[1].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 22
+				},
+				"DocCam[1].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 22
+				},
+				"DocCam[1].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 22
+				},
+				"DocCam[1].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 22
+				},
+				"DocCam[1].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 22
+				},
+				"DocCam[1].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 22
+				},
+				"DocCam[1].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 22
+				},
+				"DocCam[1].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 22
+				},
+				"DocCam[1].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 22
+				},
+				"DocCam[1].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 22
+				},
+				"DocCam[2].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 23
+				},
+				"DocCam[2].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 23
+				},
+				"DocCam[2].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 23
+				},
+				"DocCam[2].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 23
+				},
+				"DocCam[2].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 23
+				},
+				"DocCam[2].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 23
+				},
+				"DocCam[2].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 23
+				},
+				"DocCam[2].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 23
+				},
+				"DocCam[2].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 23
+				},
+				"DocCam[2].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 23
+				},
+				"DocCam[2].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 23
+				},
+				"DocCam[2].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 23
+				},
+				"DocCam[2].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 23
+				},
+				"DocCam[2].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 23
+				},
+				"DocCam[3].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 24
+				},
+				"DocCam[3].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 24
+				},
+				"DocCam[3].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 24
+				},
+				"DocCam[3].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 24
+				},
+				"DocCam[3].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 24
+				},
+				"DocCam[3].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 24
+				},
+				"DocCam[3].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 24
+				},
+				"DocCam[3].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 24
+				},
+				"DocCam[3].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 24
+				},
+				"DocCam[3].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 24
+				},
+				"DocCam[3].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 24
+				},
+				"DocCam[3].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 24
+				},
+				"DocCam[3].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 24
+				},
+				"DocCam[3].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 24
+				},
+				"DocCam[4].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 25
+				},
+				"DocCam[4].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 25
+				},
+				"DocCam[4].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 25
+				},
+				"DocCam[4].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 25
+				},
+				"DocCam[4].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 25
+				},
+				"DocCam[4].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 25
+				},
+				"DocCam[4].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 25
+				},
+				"DocCam[4].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 25
+				},
+				"DocCam[4].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 25
+				},
+				"DocCam[4].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 25
+				},
+				"DocCam[4].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 25
+				},
+				"DocCam[4].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 25
+				},
+				"DocCam[4].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 25
+				},
+				"DocCam[4].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 25
+				},
+				"DocCam[5].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 26
+				},
+				"DocCam[5].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 26
+				},
+				"DocCam[5].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 26
+				},
+				"DocCam[5].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 26
+				},
+				"DocCam[5].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 26
+				},
+				"DocCam[5].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 26
+				},
+				"DocCam[5].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 26
+				},
+				"DocCam[5].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 26
+				},
+				"DocCam[5].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 26
+				},
+				"DocCam[5].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 26
+				},
+				"DocCam[5].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 26
+				},
+				"DocCam[5].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 26
+				},
+				"DocCam[5].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 26
+				},
+				"DocCam[5].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 26
+				},
+				"DocCam[6].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 27
+				},
+				"DocCam[6].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 27
+				},
+				"DocCam[6].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 27
+				},
+				"DocCam[6].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 27
+				},
+				"DocCam[6].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 27
+				},
+				"DocCam[6].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 27
+				},
+				"DocCam[6].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 27
+				},
+				"DocCam[6].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 27
+				},
+				"DocCam[6].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 27
+				},
+				"DocCam[6].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 27
+				},
+				"DocCam[6].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 27
+				},
+				"DocCam[6].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 27
+				},
+				"DocCam[6].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 27
+				},
+				"DocCam[6].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 27
+				},
+				"DocCam[7].CameraOn": {
+					"joinId": 1,
+					"smartObjectId": 28
+				},
+				"DocCam[7].CameraOff": {
+					"joinId": 2,
+					"smartObjectId": 28
+				},
+				"DocCam[7].FOCup": {
+					"joinId": 3,
+					"smartObjectId": 28
+				},
+				"DocCam[7].FOCdown": {
+					"joinId": 4,
+					"smartObjectId": 28
+				},
+				"DocCam[7].ZoomUp": {
+					"joinId": 5,
+					"smartObjectId": 28
+				},
+				"DocCam[7].ZoomDown": {
+					"joinId": 6,
+					"smartObjectId": 28
+				},
+				"DocCam[7].IrisUp": {
+					"joinId": 7,
+					"smartObjectId": 28
+				},
+				"DocCam[7].IrisDown": {
+					"joinId": 8,
+					"smartObjectId": 28
+				},
+				"DocCam[7].Preset1": {
+					"joinId": 9,
+					"smartObjectId": 28
+				},
+				"DocCam[7].Preset2": {
+					"joinId": 10,
+					"smartObjectId": 28
+				},
+				"DocCam[7].Preset3": {
+					"joinId": 11,
+					"smartObjectId": 28
+				},
+				"DocCam[7].Preset1Save": {
+					"joinId": 12,
+					"smartObjectId": 28
+				},
+				"DocCam[7].Preset2Save": {
+					"joinId": 13,
+					"smartObjectId": 28
+				},
+				"DocCam[7].Preset3Save": {
+					"joinId": 14,
+					"smartObjectId": 28
+				},
+				"Airmedia[0].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 29
+				},
+				"Airmedia[0].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 29
+				},
+				"Airmedia[0].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 29
+				},
+				"Airmedia[1].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 30
+				},
+				"Airmedia[1].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 30
+				},
+				"Airmedia[1].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 30
+				},
+				"Airmedia[2].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 31
+				},
+				"Airmedia[2].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 31
+				},
+				"Airmedia[2].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 31
+				},
+				"Airmedia[3].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 32
+				},
+				"Airmedia[3].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 32
+				},
+				"Airmedia[3].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 32
+				},
+				"Airmedia[4].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 33
+				},
+				"Airmedia[4].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 33
+				},
+				"Airmedia[4].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 33
+				},
+				"Airmedia[5].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 34
+				},
+				"Airmedia[5].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 34
+				},
+				"Airmedia[5].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 34
+				},
+				"Airmedia[6].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 35
+				},
+				"Airmedia[6].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 35
+				},
+				"Airmedia[6].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 35
+				},
+				"Airmedia[7].AutomaticInputRoutingEnable": {
+					"joinId": 8,
+					"smartObjectId": 36
+				},
+				"Airmedia[7].AutomaticInputRoutingDisable": {
+					"joinId": 9,
+					"smartObjectId": 36
+				},
+				"Airmedia[7].Reboot": {
+					"joinId": 10,
+					"smartObjectId": 36
+				},
+				"LectureCapture[0].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 37
+				},
+				"LectureCapture[0].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 37
+				},
+				"LectureCapture[1].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 38
+				},
+				"LectureCapture[1].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 38
+				},
+				"LectureCapture[2].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 39
+				},
+				"LectureCapture[2].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 39
+				},
+				"LectureCapture[3].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 40
+				},
+				"LectureCapture[3].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 40
+				},
+				"LectureCapture[4].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 41
+				},
+				"LectureCapture[4].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 41
+				},
+				"LectureCapture[5].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 42
+				},
+				"LectureCapture[5].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 42
+				},
+				"LectureCapture[6].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 43
+				},
+				"LectureCapture[6].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 43
+				},
+				"LectureCapture[7].StartRecording": {
+					"joinId": 1,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StopRecording": {
+					"joinId": 2,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StartRecordingOnChannel1": {
+					"joinId": 3,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StartRecordingOnChannel2": {
+					"joinId": 4,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StartRecordingOnChannel3": {
+					"joinId": 5,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StartRecordingOnChannel4": {
+					"joinId": 6,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StopRecordingOnChannel1": {
+					"joinId": 7,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StopRecordingOnChannel2": {
+					"joinId": 8,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StopRecordingOnChannel3": {
+					"joinId": 9,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StopRecordingOnChannel4": {
+					"joinId": 10,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].CurrentEventPause": {
+					"joinId": 11,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].CurrentEventResume": {
+					"joinId": 12,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].CurrentEventStop": {
+					"joinId": 13,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].CurrentEventExtend": {
+					"joinId": 14,
+					"smartObjectId": 44
+				},
+				"LectureCapture[7].StartURLVideoFeed": {
+					"joinId": 15,
+					"smartObjectId": 44
+				},
+				"Camera[0].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 45
+				},
+				"Camera[0].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 45
+				},
+				"Camera[0].Up": {
+					"joinId": 3,
+					"smartObjectId": 45
+				},
+				"Camera[0].Down": {
+					"joinId": 4,
+					"smartObjectId": 45
+				},
+				"Camera[0].Left": {
+					"joinId": 5,
+					"smartObjectId": 45
+				},
+				"Camera[0].Right": {
+					"joinId": 6,
+					"smartObjectId": 45
+				},
+				"Camera[0].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 45
+				},
+				"Camera[0].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 45
+				},
+				"Camera[0].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 45
+				},
+				"Camera[0].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 45
+				},
+				"Camera[0].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 45
+				},
+				"Camera[0].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 45
+				},
+				"Camera[0].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 45
+				},
+				"Camera[0].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 45
+				},
+				"Camera[0].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 45
+				},
+				"Camera[0].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 45
+				},
+				"Camera[0].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 45
+				},
+				"Camera[0].Home": {
+					"joinId": 18,
+					"smartObjectId": 45
+				},
+				"Camera[0].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 45
+				},
+				"Camera[0].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 45
+				},
+				"Camera[1].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 46
+				},
+				"Camera[1].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 46
+				},
+				"Camera[1].Up": {
+					"joinId": 3,
+					"smartObjectId": 46
+				},
+				"Camera[1].Down": {
+					"joinId": 4,
+					"smartObjectId": 46
+				},
+				"Camera[1].Left": {
+					"joinId": 5,
+					"smartObjectId": 46
+				},
+				"Camera[1].Right": {
+					"joinId": 6,
+					"smartObjectId": 46
+				},
+				"Camera[1].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 46
+				},
+				"Camera[1].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 46
+				},
+				"Camera[1].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 46
+				},
+				"Camera[1].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 46
+				},
+				"Camera[1].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 46
+				},
+				"Camera[1].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 46
+				},
+				"Camera[1].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 46
+				},
+				"Camera[1].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 46
+				},
+				"Camera[1].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 46
+				},
+				"Camera[1].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 46
+				},
+				"Camera[1].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 46
+				},
+				"Camera[1].Home": {
+					"joinId": 18,
+					"smartObjectId": 46
+				},
+				"Camera[1].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 46
+				},
+				"Camera[1].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 46
+				},
+				"Camera[2].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 47
+				},
+				"Camera[2].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 47
+				},
+				"Camera[2].Up": {
+					"joinId": 3,
+					"smartObjectId": 47
+				},
+				"Camera[2].Down": {
+					"joinId": 4,
+					"smartObjectId": 47
+				},
+				"Camera[2].Left": {
+					"joinId": 5,
+					"smartObjectId": 47
+				},
+				"Camera[2].Right": {
+					"joinId": 6,
+					"smartObjectId": 47
+				},
+				"Camera[2].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 47
+				},
+				"Camera[2].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 47
+				},
+				"Camera[2].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 47
+				},
+				"Camera[2].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 47
+				},
+				"Camera[2].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 47
+				},
+				"Camera[2].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 47
+				},
+				"Camera[2].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 47
+				},
+				"Camera[2].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 47
+				},
+				"Camera[2].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 47
+				},
+				"Camera[2].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 47
+				},
+				"Camera[2].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 47
+				},
+				"Camera[2].Home": {
+					"joinId": 18,
+					"smartObjectId": 47
+				},
+				"Camera[2].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 47
+				},
+				"Camera[2].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 47
+				},
+				"Camera[3].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 48
+				},
+				"Camera[3].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 48
+				},
+				"Camera[3].Up": {
+					"joinId": 3,
+					"smartObjectId": 48
+				},
+				"Camera[3].Down": {
+					"joinId": 4,
+					"smartObjectId": 48
+				},
+				"Camera[3].Left": {
+					"joinId": 5,
+					"smartObjectId": 48
+				},
+				"Camera[3].Right": {
+					"joinId": 6,
+					"smartObjectId": 48
+				},
+				"Camera[3].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 48
+				},
+				"Camera[3].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 48
+				},
+				"Camera[3].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 48
+				},
+				"Camera[3].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 48
+				},
+				"Camera[3].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 48
+				},
+				"Camera[3].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 48
+				},
+				"Camera[3].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 48
+				},
+				"Camera[3].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 48
+				},
+				"Camera[3].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 48
+				},
+				"Camera[3].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 48
+				},
+				"Camera[3].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 48
+				},
+				"Camera[3].Home": {
+					"joinId": 18,
+					"smartObjectId": 48
+				},
+				"Camera[3].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 48
+				},
+				"Camera[3].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 48
+				},
+				"Camera[4].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 49
+				},
+				"Camera[4].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 49
+				},
+				"Camera[4].Up": {
+					"joinId": 3,
+					"smartObjectId": 49
+				},
+				"Camera[4].Down": {
+					"joinId": 4,
+					"smartObjectId": 49
+				},
+				"Camera[4].Left": {
+					"joinId": 5,
+					"smartObjectId": 49
+				},
+				"Camera[4].Right": {
+					"joinId": 6,
+					"smartObjectId": 49
+				},
+				"Camera[4].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 49
+				},
+				"Camera[4].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 49
+				},
+				"Camera[4].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 49
+				},
+				"Camera[4].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 49
+				},
+				"Camera[4].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 49
+				},
+				"Camera[4].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 49
+				},
+				"Camera[4].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 49
+				},
+				"Camera[4].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 49
+				},
+				"Camera[4].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 49
+				},
+				"Camera[4].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 49
+				},
+				"Camera[4].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 49
+				},
+				"Camera[4].Home": {
+					"joinId": 18,
+					"smartObjectId": 49
+				},
+				"Camera[4].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 49
+				},
+				"Camera[4].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 49
+				},
+				"Camera[5].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 50
+				},
+				"Camera[5].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 50
+				},
+				"Camera[5].Up": {
+					"joinId": 3,
+					"smartObjectId": 50
+				},
+				"Camera[5].Down": {
+					"joinId": 4,
+					"smartObjectId": 50
+				},
+				"Camera[5].Left": {
+					"joinId": 5,
+					"smartObjectId": 50
+				},
+				"Camera[5].Right": {
+					"joinId": 6,
+					"smartObjectId": 50
+				},
+				"Camera[5].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 50
+				},
+				"Camera[5].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 50
+				},
+				"Camera[5].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 50
+				},
+				"Camera[5].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 50
+				},
+				"Camera[5].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 50
+				},
+				"Camera[5].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 50
+				},
+				"Camera[5].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 50
+				},
+				"Camera[5].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 50
+				},
+				"Camera[5].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 50
+				},
+				"Camera[5].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 50
+				},
+				"Camera[5].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 50
+				},
+				"Camera[5].Home": {
+					"joinId": 18,
+					"smartObjectId": 50
+				},
+				"Camera[5].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 50
+				},
+				"Camera[5].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 50
+				},
+				"Camera[6].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 51
+				},
+				"Camera[6].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 51
+				},
+				"Camera[6].Up": {
+					"joinId": 3,
+					"smartObjectId": 51
+				},
+				"Camera[6].Down": {
+					"joinId": 4,
+					"smartObjectId": 51
+				},
+				"Camera[6].Left": {
+					"joinId": 5,
+					"smartObjectId": 51
+				},
+				"Camera[6].Right": {
+					"joinId": 6,
+					"smartObjectId": 51
+				},
+				"Camera[6].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 51
+				},
+				"Camera[6].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 51
+				},
+				"Camera[6].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 51
+				},
+				"Camera[6].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 51
+				},
+				"Camera[6].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 51
+				},
+				"Camera[6].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 51
+				},
+				"Camera[6].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 51
+				},
+				"Camera[6].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 51
+				},
+				"Camera[6].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 51
+				},
+				"Camera[6].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 51
+				},
+				"Camera[6].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 51
+				},
+				"Camera[6].Home": {
+					"joinId": 18,
+					"smartObjectId": 51
+				},
+				"Camera[6].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 51
+				},
+				"Camera[6].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 51
+				},
+				"Camera[7].EnableAutoTracking": {
+					"joinId": 1,
+					"smartObjectId": 52
+				},
+				"Camera[7].DisableAutoTracking": {
+					"joinId": 2,
+					"smartObjectId": 52
+				},
+				"Camera[7].Up": {
+					"joinId": 3,
+					"smartObjectId": 52
+				},
+				"Camera[7].Down": {
+					"joinId": 4,
+					"smartObjectId": 52
+				},
+				"Camera[7].Left": {
+					"joinId": 5,
+					"smartObjectId": 52
+				},
+				"Camera[7].Right": {
+					"joinId": 6,
+					"smartObjectId": 52
+				},
+				"Camera[7].ZoomIn": {
+					"joinId": 7,
+					"smartObjectId": 52
+				},
+				"Camera[7].ZoomOut": {
+					"joinId": 8,
+					"smartObjectId": 52
+				},
+				"Camera[7].GetFocusMode": {
+					"joinId": 9,
+					"smartObjectId": 52
+				},
+				"Camera[7].CameraFocusAutoOn": {
+					"joinId": 10,
+					"smartObjectId": 52
+				},
+				"Camera[7].CameraFocusManualOn": {
+					"joinId": 11,
+					"smartObjectId": 52
+				},
+				"Camera[7].CameraFocusNear": {
+					"joinId": 12,
+					"smartObjectId": 52
+				},
+				"Camera[7].CameraFocusFar": {
+					"joinId": 13,
+					"smartObjectId": 52
+				},
+				"Camera[7].GetExposureMode": {
+					"joinId": 14,
+					"smartObjectId": 52
+				},
+				"Camera[7].CameraExposureManualOn": {
+					"joinId": 15,
+					"smartObjectId": 52
+				},
+				"Camera[7].CameraIrisOpen": {
+					"joinId": 16,
+					"smartObjectId": 52
+				},
+				"Camera[7].CameraIrisClose": {
+					"joinId": 17,
+					"smartObjectId": 52
+				},
+				"Camera[7].Home": {
+					"joinId": 18,
+					"smartObjectId": 52
+				},
+				"Camera[7].TrackingPosition": {
+					"joinId": 19,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset2": {
+					"joinId": 20,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset3": {
+					"joinId": 21,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset4": {
+					"joinId": 22,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset5": {
+					"joinId": 23,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset6": {
+					"joinId": 24,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset7": {
+					"joinId": 25,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset8": {
+					"joinId": 26,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset9": {
+					"joinId": 27,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset10": {
+					"joinId": 28,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset11": {
+					"joinId": 29,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset12": {
+					"joinId": 30,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset2Save": {
+					"joinId": 31,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset3Save": {
+					"joinId": 32,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset4Save": {
+					"joinId": 33,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset5Save": {
+					"joinId": 34,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset6Save": {
+					"joinId": 35,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset7Save": {
+					"joinId": 36,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset8Save": {
+					"joinId": 37,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset9Save": {
+					"joinId": 38,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset10Save": {
+					"joinId": 39,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset11Save": {
+					"joinId": 40,
+					"smartObjectId": 52
+				},
+				"Camera[7].Preset12Save": {
+					"joinId": 41,
+					"smartObjectId": 52
+				}
+			},
+			"numeric": {
+				"MPC3201B.Source": {
+					"joinId": 3,
+					"smartObjectId": 3
+				},
+				"Settings.S1SetIconID": {
+					"joinId": 9,
+					"smartObjectId": 4
+				},
+				"Settings.S2SetIconID": {
+					"joinId": 10,
+					"smartObjectId": 4
+				},
+				"Settings.S3SetIconID": {
+					"joinId": 11,
+					"smartObjectId": 4
+				},
+				"Settings.S4SetIconID": {
+					"joinId": 12,
+					"smartObjectId": 4
+				},
+				"Settings.S5SetIconID": {
+					"joinId": 13,
+					"smartObjectId": 4
+				},
+				"Settings.S6SetIconID": {
+					"joinId": 14,
+					"smartObjectId": 4
+				},
+				"Settings.S7SetIconID": {
+					"joinId": 15,
+					"smartObjectId": 4
+				},
+				"Settings.S8SetIconID": {
+					"joinId": 16,
+					"smartObjectId": 4
+				},
+				"Settings.Line1GainSet": {
+					"joinId": 17,
+					"smartObjectId": 4
+				},
+				"Settings.Line2GainSet": {
+					"joinId": 18,
+					"smartObjectId": 4
+				},
+				"Settings.Line3GainSet": {
+					"joinId": 19,
+					"smartObjectId": 4
+				},
+				"Settings.Line4GainSet": {
+					"joinId": 20,
+					"smartObjectId": 4
+				},
+				"Settings.Mic1GainSet": {
+					"joinId": 25,
+					"smartObjectId": 4
+				},
+				"Settings.Mic2GainSet": {
+					"joinId": 26,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID1": {
+					"joinId": 29,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID2": {
+					"joinId": 30,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID3": {
+					"joinId": 31,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID4": {
+					"joinId": 32,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID5": {
+					"joinId": 33,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID6": {
+					"joinId": 34,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID7": {
+					"joinId": 35,
+					"smartObjectId": 4
+				},
+				"Settings.SourceCntrlID8": {
+					"joinId": 36,
+					"smartObjectId": 4
+				},
+				"Airmedia[0].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 29
+				},
+				"Airmedia[0].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 29
+				},
+				"Airmedia[1].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 30
+				},
+				"Airmedia[1].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 30
+				},
+				"Airmedia[2].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 31
+				},
+				"Airmedia[2].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 31
+				},
+				"Airmedia[3].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 32
+				},
+				"Airmedia[3].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 32
+				},
+				"Airmedia[4].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 33
+				},
+				"Airmedia[4].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 33
+				},
+				"Airmedia[5].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 34
+				},
+				"Airmedia[5].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 34
+				},
+				"Airmedia[6].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 35
+				},
+				"Airmedia[6].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 35
+				},
+				"Airmedia[7].VideoOut": {
+					"joinId": 15,
+					"smartObjectId": 36
+				},
+				"Airmedia[7].DigitalSignageState": {
+					"joinId": 17,
+					"smartObjectId": 36
+				}
+			},
+			"string": {
+				"Diagnostics.Debug": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"Diagnostics.Error": {
+					"joinId": 2,
+					"smartObjectId": 1
+				},
+				"Settings.PasswordIs": {
+					"joinId": 2,
+					"smartObjectId": 4
+				},
+				"Airmedia[0].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 29
+				},
+				"Airmedia[0].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 29
+				},
+				"Airmedia[1].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 30
+				},
+				"Airmedia[1].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 30
+				},
+				"Airmedia[2].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 31
+				},
+				"Airmedia[2].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 31
+				},
+				"Airmedia[3].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 32
+				},
+				"Airmedia[3].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 32
+				},
+				"Airmedia[4].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 33
+				},
+				"Airmedia[4].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 33
+				},
+				"Airmedia[5].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 34
+				},
+				"Airmedia[5].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 34
+				},
+				"Airmedia[6].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 35
+				},
+				"Airmedia[6].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 35
+				},
+				"Airmedia[7].DigitalSignageURL": {
+					"joinId": 7,
+					"smartObjectId": 36
+				},
+				"Airmedia[7].LoginCodeSet": {
+					"joinId": 8,
+					"smartObjectId": 36
+				},
+				"Camera[0].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 45
+				},
+				"Camera[1].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 46
+				},
+				"Camera[2].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 47
+				},
+				"Camera[3].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 48
+				},
+				"Camera[4].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 49
+				},
+				"Camera[5].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 50
+				},
+				"Camera[6].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 51
+				},
+				"Camera[7].AutoTrackerTX": {
+					"joinId": 1,
+					"smartObjectId": 52
+				}
+			}
+		}
+	}
+}

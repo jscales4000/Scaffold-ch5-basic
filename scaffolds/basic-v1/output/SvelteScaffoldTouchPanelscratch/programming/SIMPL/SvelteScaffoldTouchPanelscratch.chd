@@ -1,0 +1,115 @@
+[
+ObjTp=FSgntr
+Sgntr=CHD
+RelVrs=1
+Schema=1
+ContractEditor=1.0.0.0
+]
+[
+ObjTp=Hd
+Schema=1
+ProjectFile=SvelteScaffoldTouchPanelscratch
+ContractID=_dj9aqxfpd
+CEProjectVer=1.0.0.0
+DateTimeUTC=2025-08-22 11:00:21.579
+Cmn1=Touch panel contract for Svelte scaffold
+]
+[
+ObjTp=Symbol
+Name=TouchPanelController
+SmplCName=_789fdpz281
+Hint=TouchPanelController (Control Join Id 1)
+Code=1
+SMWRev=4.13.00
+Expand=expand_randomly
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=6
+MaxVariableOutputs=6
+MinVariableInputsList2=1
+MaxVariableInputsList2=1
+MinVariableOutputsList2=1
+MaxVariableOutputsList2=1
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+NumFixedParams=1
+ParamCue1=ControlJoinId
+ParamSigType1=UI_RO_String
+ControlJoinId=1d
+MPp=1
+Pp1=1
+ChdH=1
+Render=8
+InputCue1=VolumeUp
+InputSigType1=Digital
+SmplCInputCue1=_f9964bn2b
+InputToolTip1=Volume up button
+InputCue2=VolumeDown
+InputSigType2=Digital
+SmplCInputCue2=_z5jxamt8c
+InputToolTip2=Volume down button
+InputCue3=MuteToggle
+InputSigType3=Digital
+SmplCInputCue3=_8o0r8id6s
+InputToolTip3=Audio mute toggle
+InputCue4=PowerButton
+InputSigType4=Digital
+SmplCInputCue4=_h78j3l70q
+InputToolTip4=System power
+InputCue5=HelpButton
+InputSigType5=Digital
+SmplCInputCue5=_y8xq8yrqv
+InputToolTip5=Help button
+InputCue6=SettingsButton
+InputSigType6=Digital
+SmplCInputCue6=_lhb0ppe75
+InputToolTip6=Settings button
+InputList2Cue1=SelectSource
+InputList2SigType1=Analog
+SmplCInputList2Cue1=_ecibith1x
+Input2ToolTip1=Source selection (1-6)
+OutputCue1=[~UNUSED3~]
+OutputSigType1=Digital
+SmplCOutputCue1=_eytdt3pl8
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+SmplCOutputCue2=_hw13kz2b4
+OutputCue3=IsMuted
+OutputSigType3=Digital
+SmplCOutputCue3=_xt30dvngz
+OutputToolTip3=Audio mute status
+OutputCue4=SystemPowered
+OutputSigType4=Digital
+SmplCOutputCue4=_ongi1vv6p
+OutputToolTip4=Power status
+OutputCue5=[~UNUSED3~]
+OutputSigType5=Digital
+SmplCOutputCue5=_o6mk7nyu2
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+SmplCOutputCue6=_v6774yqtu
+OutputList2Cue1=SelectedSource
+OutputList2SigType1=Analog
+SmplCOutputList2Cue1=_t320h5jtt
+Output2ToolTip1=Current source (1-6)
+]
+[
+ObjTp=Dp
+Tp=1
+HD=TRUE
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+H=1
+DV=1d
+]
+[
+ObjTp=CHD
+H=1
+ChdCode=1
+ParentChdFolder=0
+]

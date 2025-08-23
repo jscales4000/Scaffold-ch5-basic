@@ -1,0 +1,42 @@
+<template id="SvelteScaffoldTouchPanel.TouchPanelController.TouchPanelController">
+	<div id="TouchPanelController.TouchPanelController">
+	 	<!-- 
+ 	 	 State: Source selection (1-6) 
+ 	 	 Event: Current source (1-6) 
+ 	 	-->
+	<ch5-slider sendEventOnChange="TouchPanelController.SelectedSource" receiveStateValue="TouchPanelController.SelectSource">
+        	</ch5-slider>
+	 	<!--
+ 	 	 State: Volume up button 
+ 	 	-->
+ 			<ch5-button receiveStateSelected="TouchPanelController.VolumeUp" disabled>
+        	</ch5-button>
+	 	<!--
+ 	 	 State: Volume down button 
+ 	 	-->
+ 			<ch5-button receiveStateSelected="TouchPanelController.VolumeDown" disabled>
+        	</ch5-button>
+	 	<!-- 
+ 	 	 State: Audio mute toggle 
+ 	 	 Event: Audio mute status 
+ 	 	-->
+	<ch5-button sendEventOnClick="TouchPanelController.IsMuted" receiveStateSelected="TouchPanelController.MuteToggle">
+        	</ch5-button>
+	 	<!-- 
+ 	 	 State: System power 
+ 	 	 Event: Power status 
+ 	 	-->
+	<ch5-button sendEventOnClick="TouchPanelController.SystemPowered" receiveStateSelected="TouchPanelController.PowerButton">
+        	</ch5-button>
+	 	<!--
+ 	 	 State: Help button 
+ 	 	-->
+ 			<ch5-button receiveStateSelected="TouchPanelController.HelpButton" disabled>
+        	</ch5-button>
+	 	<!--
+ 	 	 State: Settings button 
+ 	 	-->
+ 			<ch5-button receiveStateSelected="TouchPanelController.SettingsButton" disabled>
+        	</ch5-button>
+	 </div>
+</template>

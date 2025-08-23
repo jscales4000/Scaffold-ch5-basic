@@ -1,0 +1,44 @@
+{
+  "name": "my-ch5-ui",
+  "private": true,
+  "version": "0.8.6-lite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
+    "CH5Archive": "ch5-cli archive -p my-ch5-ui -d dist/ -o ./ -c ./public/config/contract.cse2j"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tsconfig/svelte": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "postcss-load-config": "^6.0.1",
+    "svelte": "^5.33.4",
+    "svelte-check": "^4.1.6",
+    "svelte-preprocess": "^6.0.3",
+    "tailwindcss": "^3.3.5",
+    "tailwindcss-cli": "^0.1.2",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-singlefile": "^2.2.0",
+    "web-vitals": "^5.0.2"
+  },
+  "dependencies": {
+    "@crestron/ch5-crcomlib": "^2.13.0",
+    "@crestron/ch5-webxpanel": "^2.8.0",
+    "@floating-ui/dom": "^1.7.0",
+    "ch5-svelte": "^1.0.3",
+    "openssl": "^2.0.0",
+    "tailwind-merge": "^3.3.0",
+    "vite-plugin-static-copy": "^3.0.0"
+  }
+}

@@ -3,6 +3,8 @@
   
   // Props
   export let roomName = "Room Name";
+  export let handleHelpButton = () => {};
+  export let handleSettingsButton = () => {};
   
   // Time display
   let currentTime = '';
@@ -17,7 +19,7 @@
   }
   
   // Update time every minute
-  let timeInterval;
+  let timeInterval: number | undefined;
   
   onMount(() => {
     updateTime(); // Initial call
@@ -41,11 +43,11 @@
     </div>
     <div class="header-right">
       <span class="time-display">{currentTime || '12:19 PM'}</span>
-      <button class="header-button">
+      <button class="header-button" on:click={handleHelpButton}>
         <i class="fas fa-question-circle"></i>
         <span>Help</span>
       </button>
-      <button class="header-button">
+      <button class="header-button" on:click={handleSettingsButton}>
         <i class="fas fa-cog"></i>
         <span>Settings</span>
       </button>

@@ -1,0 +1,108 @@
+{
+	"Errors": [],
+	"id": "_gcacc3j5g",
+	"name": "Screen",
+	"description": "ScreenControl",
+	"company": "",
+	"client": "",
+	"author": "",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_gcacc3j5g",
+			"id": "_d6fzlvjin",
+			"name": "Control",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "ScreenControlActiveFB",
+					"siblingId": "_ch0a8mn6r",
+					"dataType": 1,
+					"notes": "",
+					"id": "_cx7l3n181",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_tgsxni2qh",
+					"dataType": 1,
+					"notes": "",
+					"id": "_73t35vcxk",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_v19elkqz9",
+					"dataType": 1,
+					"notes": "",
+					"id": "_e3qml5ptt",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ed58t61mi",
+					"dataType": 1,
+					"notes": "",
+					"id": "_p8rajbki5",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_cx7l3n181",
+					"dataType": 0,
+					"notes": "",
+					"id": "_ch0a8mn6r",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "ScreenControlActivate",
+					"siblingId": "_73t35vcxk",
+					"dataType": 1,
+					"notes": "",
+					"id": "_tgsxni2qh",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "ScreenUp",
+					"siblingId": "_e3qml5ptt",
+					"dataType": 1,
+					"notes": "",
+					"id": "_v19elkqz9",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "ScreenDown",
+					"siblingId": "_p8rajbki5",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ed58t61mi",
+					"parentId": "_d6fzlvjin",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

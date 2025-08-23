@@ -1,0 +1,177 @@
+{
+	"Errors": [],
+	"id": "_dj9aqxfpd",
+	"name": "SvelteScaffoldTouchPanelscratch",
+	"description": "Touch panel contract for Svelte scaffold",
+	"company": "Your Company",
+	"client": "Touch Panel Project",
+	"author": "Contract Generator",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_dj9aqxfpd",
+			"id": "_789fdpz28",
+			"componentId": "_hdg2mivwk",
+			"instanceName": "TouchPanelController",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_dj9aqxfpd",
+			"id": "_hdg2mivwk",
+			"name": "TouchPanelController",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "SelectSource",
+					"siblingId": "_t320h5jtt",
+					"dataType": 2,
+					"notes": "Source selection (1-6)",
+					"id": "_ecibith1x",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "VolumeUp",
+					"siblingId": "_eytdt3pl8",
+					"dataType": 1,
+					"notes": "Volume up button",
+					"id": "_f9964bn2b",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "VolumeDown",
+					"siblingId": "_hw13kz2b4",
+					"dataType": 1,
+					"notes": "Volume down button",
+					"id": "_z5jxamt8c",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "MuteToggle",
+					"siblingId": "_xt30dvngz",
+					"dataType": 1,
+					"notes": "Audio mute toggle",
+					"id": "_8o0r8id6s",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "PowerButton",
+					"siblingId": "_ongi1vv6p",
+					"dataType": 1,
+					"notes": "System power",
+					"id": "_h78j3l70q",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "HelpButton",
+					"siblingId": "_o6mk7nyu2",
+					"dataType": 1,
+					"notes": "Help button",
+					"id": "_y8xq8yrqv",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "SettingsButton",
+					"siblingId": "_v6774yqtu",
+					"dataType": 1,
+					"notes": "Settings button",
+					"id": "_lhb0ppe75",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "SelectedSource",
+					"siblingId": "_ecibith1x",
+					"dataType": 2,
+					"notes": "Current source (1-6)",
+					"id": "_t320h5jtt",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_f9964bn2b",
+					"dataType": 0,
+					"notes": "",
+					"id": "_eytdt3pl8",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_z5jxamt8c",
+					"dataType": 0,
+					"notes": "",
+					"id": "_hw13kz2b4",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "IsMuted",
+					"siblingId": "_8o0r8id6s",
+					"dataType": 1,
+					"notes": "Audio mute status",
+					"id": "_xt30dvngz",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "SystemPowered",
+					"siblingId": "_h78j3l70q",
+					"dataType": 1,
+					"notes": "Power status",
+					"id": "_ongi1vv6p",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_y8xq8yrqv",
+					"dataType": 0,
+					"notes": "",
+					"id": "_o6mk7nyu2",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_lhb0ppe75",
+					"dataType": 0,
+					"notes": "",
+					"id": "_v6774yqtu",
+					"parentId": "_hdg2mivwk",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

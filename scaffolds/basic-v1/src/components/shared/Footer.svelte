@@ -5,16 +5,17 @@
   export let toggleMute = () => {};
   export let handleVolumeUp = () => {};
   export let handleVolumeDown = () => {};
+  export let handlePowerButton = () => {};
   
   let isMicMuted = false;
   
   function toggleMicrophone() {
+    // Send digital signal to control system for microphone toggle
+    if (typeof window.CrComLib !== 'undefined') {
+      // Note: Microphone is not in our contract, but could be added
+      console.log('Microphone toggle - not implemented in contract');
+    }
     isMicMuted = !isMicMuted;
-    console.log('Microphone toggled');
-  }
-  
-  function handlePower() {
-    console.log('Power button pressed');
   }
 </script>
 
@@ -33,7 +34,7 @@
     <div class="footer-content">
     <!-- Left side - Power button -->
     <div class="footer-left">
-      <button class="power-button" on:click={handlePower} aria-label="Power">
+      <button class="power-button" on:click={handlePowerButton} aria-label="Power">
         <i class="fas fa-power-off"></i>
       </button>
     </div>

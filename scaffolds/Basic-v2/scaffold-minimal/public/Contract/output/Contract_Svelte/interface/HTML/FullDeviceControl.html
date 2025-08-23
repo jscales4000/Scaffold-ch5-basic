@@ -1,0 +1,40 @@
+<template id="Contract_Svelte.DeviceControl.FullDeviceControl">
+	<div id="DeviceControl.FullDeviceControl">
+	 		<ch5-button sendEventOnClick="FullDeviceControl.Power">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.Up">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.Down">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.Left">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.Right">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.Ok">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.Back">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.TV">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.PlayPause">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="FullDeviceControl.Status" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="FullDeviceControl.NumberofUsersCon" nohandle>
+        	</ch5-slider>
+	 		<ch5-button receiveStateSelected="FullDeviceControl.LoginCode" disabled>
+        	</ch5-button>
+	 	<span data-ch5-textcontent="FullDeviceControl.ConnectionAddress">Label</span>
+	 	<span data-ch5-textcontent="FullDeviceControl.LoginCodeText">Label</span>
+	 	<span data-ch5-textcontent="FullDeviceControl.IPAddressText">Label</span>
+	 	<span data-ch5-textcontent="FullDeviceControl.HostnameText">Label</span>
+	 		<ch5-button receiveStateSelected="FullDeviceControl.MediaPlayerIsPlaying" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="FullDeviceControl.MediaPlayerCurrentTime" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="FullDeviceControl.MediaPlayerDuration" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="FullDeviceControl.MediaPlayer">
+        	</ch5-button>
+	 </div>
+</template>

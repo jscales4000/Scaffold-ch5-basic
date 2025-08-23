@@ -1,8 +1,21 @@
 import { defineConfig } from 'vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
-  plugins: [svelte()],
+  plugins: [
+    svelte({ preprocess: vitePreprocess() }),
+    // Copy CrComLib to build directory
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js',
+          dest: ''
+        }
+      ]
+    })
+  ],
   server: {
     port: 5173
   },

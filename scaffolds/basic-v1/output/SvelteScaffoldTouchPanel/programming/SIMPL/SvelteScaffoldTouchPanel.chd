@@ -1,0 +1,107 @@
+[
+ObjTp=FSgntr
+Sgntr=CHD
+RelVrs=1
+Schema=1
+ContractEditor=1.0.0.0
+]
+[
+ObjTp=Hd
+Schema=1
+ProjectFile=SvelteScaffoldTouchPanel
+ContractID=_sveltetp001
+CEProjectVer=1.0.0.0
+DateTimeUTC=2025-08-21 20:38:16.823
+Cmn1=Touch panel contract for Svelte scaffold
+]
+[
+ObjTp=Symbol
+Name=TouchPanelController
+SmplCName=_spec001svelte1
+Hint=TouchPanelController (Control Join Id 1)
+Code=1
+SMWRev=4.13.00
+Expand=expand_randomly
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=2
+MaxVariableOutputs=2
+MinVariableInputsList2=1
+MaxVariableInputsList2=1
+MinVariableOutputsList2=2
+MaxVariableOutputsList2=2
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+NumFixedParams=1
+ParamCue1=ControlJoinId
+ParamSigType1=UI_RO_String
+ControlJoinId=1d
+MPp=1
+Pp1=1
+ChdH=1
+Render=8
+InputCue1=VolumeUp
+InputSigType1=Digital
+SmplCInputCue1=_cmd002svelte
+InputToolTip1=Volume up button
+InputCue2=VolumeDown
+InputSigType2=Digital
+SmplCInputCue2=_cmd003svelte
+InputToolTip2=Volume down button
+InputCue3=MuteToggle
+InputSigType3=Digital
+SmplCInputCue3=_cmd004svelte
+InputToolTip3=Audio mute toggle
+InputCue4=PowerButton
+InputSigType4=Digital
+SmplCInputCue4=_cmd005svelte
+InputToolTip4=System power
+InputCue5=HelpButton
+InputSigType5=Digital
+SmplCInputCue5=_cmd006svelte
+InputToolTip5=Help button
+InputCue6=SettingsButton
+InputSigType6=Digital
+SmplCInputCue6=_cmd007svelte
+InputToolTip6=Settings button
+InputList2Cue1=SelectSource
+InputList2SigType1=Analog
+SmplCInputList2Cue1=_cmd001svelte
+Input2ToolTip1=Source selection (1-6)
+OutputCue1=IsMuted
+OutputSigType1=Digital
+SmplCOutputCue1=_fb002svelte
+OutputToolTip1=Audio mute status
+OutputCue2=SystemPowered
+OutputSigType2=Digital
+SmplCOutputCue2=_fb003svelte
+OutputToolTip2=Power status
+OutputList2Cue1=SelectedSource
+OutputList2SigType1=Analog
+SmplCOutputList2Cue1=_fb001svelte
+Output2ToolTip1=Current source (1-6)
+OutputList2Cue2=VolumeLevel
+OutputList2SigType2=Analog
+SmplCOutputList2Cue2=_fb004svelte
+Output2ToolTip2=Volume level 0-65535
+]
+[
+ObjTp=Dp
+Tp=1
+HD=TRUE
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+H=1
+DV=1d
+]
+[
+ObjTp=CHD
+H=1
+ChdCode=1
+ParentChdFolder=0
+]
