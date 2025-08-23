@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(copy:*)",
+      "Bash(cp:*)",
+      "Bash(npm run build:*)",
+      "Bash(zip:*)",
+      "Bash(powershell:*)",
+      "Bash(where ch5cli)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(rm:*)",
+      "Bash(grep:*)",
+      "Bash(npm search:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm run check:*)",
+      "Bash(npm run:*)",
+      "Bash(node:*)",
+      "Bash(tar:*)",
+      "Bash(npx ch5-cli archive:*)",
+      "Bash(npm create:*)",
+      "Bash(ch5-cli contractparser:*)",
+      "Bash(ch5-cli:*)",
+      "Bash(npm ls:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\Program Files",
+      "C:\\Users\\scale\\CascadeProjects\\_CH5-Svelte525\\dist",
+      "C:\\Users\\scale\\CascadeProjects\\_CH5-Svelte525"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+<template id="Contract_Svelte.Control.Camera">
+	<ch5-list id="Control.Camera" indexId="idx1" size="8" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].EnableAutoTracking">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Camera[{{idx1}}].AutoTrackingIsOn" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].DisableAutoTracking">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Camera[{{idx1}}].AutoTrackingIsOFf" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Up">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Down">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Left">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Right">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].ZoomIn">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].ZoomOut">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].GetFocusMode">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraFocusAutoOn">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Camera[{{idx1}}].CameraFocusAutoIsOn" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraFocusManualOn">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Camera[{{idx1}}].CameraFocusManualIsOn" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraFocusNear">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraFocusFar">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].GetExposureMode">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraExposureAutoOn">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Camera[{{idx1}}].CameraExposureAutoIsOn" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraExposureManualOn">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="Camera[{{idx1}}].CameraExposureManualIsOn" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraIrisOpen">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].CameraIrisClose">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Home">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].TrackingPosition">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset2">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset3">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset4">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset5">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset6">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset7">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset8">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset9">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset10">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset11">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset12">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset2Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset3Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset4Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset5Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset6Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset7Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset8Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset9Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset10Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset11Save">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Camera[{{idx1}}].Preset12Save">
+        	</ch5-button>
+	 	<ch5-textinput sendEventOnChange="Camera[{{idx1}}].AutoTrackerTX"> </ch5-textinput>
+	 	<span data-ch5-textcontent="Camera[{{idx1}}].AutoTrackerRX">Label</span>
+	 	<span data-ch5-textcontent="Camera[{{idx1}}].CameraVideoURL1">Label</span>
+	 	<span data-ch5-textcontent="Camera[{{idx1}}].CameraVideoURL2">Label</span>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

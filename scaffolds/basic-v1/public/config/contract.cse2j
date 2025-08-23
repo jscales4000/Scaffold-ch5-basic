@@ -1,0 +1,72 @@
+{
+	"name": "SvelteScaffoldTouchPanelscratch",
+	"timestamp": "2025-08-22 11:00:21.576",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Touch panel contract for Svelte scaffold",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "TouchPanelController.VolumeUp",
+					"2": "TouchPanelController.VolumeDown",
+					"3": "TouchPanelController.MuteToggle",
+					"4": "TouchPanelController.PowerButton",
+					"5": "TouchPanelController.HelpButton",
+					"6": "TouchPanelController.SettingsButton"
+				}
+			},
+			"numeric": {
+				"1": {
+					"1": "TouchPanelController.SelectSource"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"TouchPanelController.VolumeUp": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.VolumeDown": {
+					"joinId": 2,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.MuteToggle": {
+					"joinId": 3,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.PowerButton": {
+					"joinId": 4,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.HelpButton": {
+					"joinId": 5,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.SettingsButton": {
+					"joinId": 6,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.IsMuted": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.SystemPowered": {
+					"joinId": 2,
+					"smartObjectId": 1
+				}
+			},
+			"numeric": {
+				"TouchPanelController.SelectSource": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"TouchPanelController.SelectedSource": {
+					"joinId": 1,
+					"smartObjectId": 1
+				}
+			}
+		}
+	}
+}

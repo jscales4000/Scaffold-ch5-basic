@@ -1,0 +1,16 @@
+{
+  "projectType": "controlsystem",
+  "name": "svelte-scaffold-basic-1",
+  "version": "1.0.0",
+  "description": "Svelte Touch Panel Scaffold using ch5-svelte",
+  "outputName": "svelte-scaffold-basic-1",
+  "sourcePath": "dist",
+  "output": "package",
+  "contract": "public/config/contract.cse2j",
+  "assets": [
+    {
+      "sourcePath": "public/assets",
+      "outputPath": "assets"
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+	"Errors": [],
+	"id": "_liwgrgbew",
+	"name": "MediaPlayer",
+	"description": "MediaPlayerComponent",
+	"company": "",
+	"client": "",
+	"author": "",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_liwgrgbew",
+			"id": "_ouhifiuti",
+			"name": "Control",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_lny2gvgd3",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ah77n3wic",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ttpdcld3i",
+					"dataType": 1,
+					"notes": "",
+					"id": "_2o3fnau2a",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_tkyxtii4r",
+					"dataType": 1,
+					"notes": "",
+					"id": "_1x38226i2",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_wvbioh3wn",
+					"dataType": 1,
+					"notes": "",
+					"id": "_pye4yjggu",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_4i6uhzs5i",
+					"dataType": 1,
+					"notes": "",
+					"id": "_d7qzljxey",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_tzsme13me",
+					"dataType": 1,
+					"notes": "",
+					"id": "_hi7hpnnit",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ettx1da7f",
+					"dataType": 1,
+					"notes": "",
+					"id": "_vj01m4wbz",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_waj8s2kxh",
+					"dataType": 1,
+					"notes": "",
+					"id": "_aap98cdtm",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_s46p7717q",
+					"dataType": 1,
+					"notes": "",
+					"id": "_zwu6g1zll",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ghnd0rwfm",
+					"dataType": 1,
+					"notes": "",
+					"id": "_hkgo1pk2g",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_oykzhjd3e",
+					"dataType": 1,
+					"notes": "",
+					"id": "_7b84avig4",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_sc1nu9ovj",
+					"dataType": 1,
+					"notes": "",
+					"id": "_w40bpdqdu",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_u3oh6jh6z",
+					"dataType": 1,
+					"notes": "",
+					"id": "_c7r63pmca",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_h8lnfhojd",
+					"dataType": 1,
+					"notes": "",
+					"id": "_pz4pijpiy",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_fgzbb1r17",
+					"dataType": 1,
+					"notes": "",
+					"id": "_2qq9wxcwv",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_kezt9md9g",
+					"dataType": 1,
+					"notes": "",
+					"id": "_0bxjrukrw",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_z9phkmepa",
+					"dataType": 1,
+					"notes": "",
+					"id": "_4skg360fg",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_sl6kplhef",
+					"dataType": 1,
+					"notes": "",
+					"id": "_4o4ir6lef",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_boqt3aj9f",
+					"dataType": 1,
+					"notes": "",
+					"id": "_vcqfh50bd",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_lnsc8lps8",
+					"dataType": 1,
+					"notes": "",
+					"id": "_r3sy7k0lh",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_h5glwd2ei",
+					"dataType": 1,
+					"notes": "",
+					"id": "_a5sod263t",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "MediaPlayerIsPlaying",
+					"siblingId": "_xy0th9xqc",
+					"dataType": 1,
+					"notes": "",
+					"id": "_x89mhvqub",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "MediaPlayerCurrentTime",
+					"siblingId": "_lytdz3cxq",
+					"dataType": 3,
+					"notes": "",
+					"id": "_87fzs6r78",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "MediaPlayerDuration",
+					"siblingId": "_79bz2khdv",
+					"dataType": 3,
+					"notes": "",
+					"id": "_sykcywgdz",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "MediaPlayerStatus",
+					"siblingId": "_ly33xjzsg",
+					"dataType": 2,
+					"notes": "",
+					"id": "_aysk0xqi8",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_rxyhx4ap8",
+					"dataType": 1,
+					"notes": "",
+					"id": "_x9spxu2do",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_5vdp2jz10",
+					"dataType": 1,
+					"notes": "",
+					"id": "_3gdlcnk70",
+					"parentId": "_ouhifiuti",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "up",
+					"siblingId": "_ah77n3wic",
+					"dataType": 1,
+					"notes": "",
+					"id": "_lny2gvgd3",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "down",
+					"siblingId": "_2o3fnau2a",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ttpdcld3i",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "left",
+					"siblingId": "_1x38226i2",
+					"dataType": 1,
+					"notes": "",
+					"id": "_tkyxtii4r",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "right",
+					"siblingId": "_pye4yjggu",
+					"dataType": 1,
+					"notes": "",
+					"id": "_wvbioh3wn",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "OK",
+					"siblingId": "_d7qzljxey",
+					"dataType": 1,
+					"notes": "",
+					"id": "_4i6uhzs5i",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Back",
+					"siblingId": "_hi7hpnnit",
+					"dataType": 1,
+					"notes": "",
+					"id": "_tzsme13me",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "TV",
+					"siblingId": "_vj01m4wbz",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ettx1da7f",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "PlayPause",
+					"siblingId": "_aap98cdtm",
+					"dataType": 1,
+					"notes": "",
+					"id": "_waj8s2kxh",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Pause",
+					"siblingId": "_zwu6g1zll",
+					"dataType": 1,
+					"notes": "",
+					"id": "_s46p7717q",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Play",
+					"siblingId": "_hkgo1pk2g",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ghnd0rwfm",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Menu",
+					"siblingId": "_7b84avig4",
+					"dataType": 1,
+					"notes": "",
+					"id": "_oykzhjd3e",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "SmartTVControl",
+					"siblingId": "_w40bpdqdu",
+					"dataType": 1,
+					"notes": "",
+					"id": "_sc1nu9ovj",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Red",
+					"siblingId": "_c7r63pmca",
+					"dataType": 1,
+					"notes": "",
+					"id": "_u3oh6jh6z",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Blue",
+					"siblingId": "_pz4pijpiy",
+					"dataType": 1,
+					"notes": "",
+					"id": "_h8lnfhojd",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Green",
+					"siblingId": "_2qq9wxcwv",
+					"dataType": 1,
+					"notes": "",
+					"id": "_fgzbb1r17",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Yellow",
+					"siblingId": "_0bxjrukrw",
+					"dataType": 1,
+					"notes": "",
+					"id": "_kezt9md9g",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Guide",
+					"siblingId": "_4skg360fg",
+					"dataType": 1,
+					"notes": "",
+					"id": "_z9phkmepa",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Info",
+					"siblingId": "_4o4ir6lef",
+					"dataType": 1,
+					"notes": "",
+					"id": "_sl6kplhef",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Favorites",
+					"siblingId": "_vcqfh50bd",
+					"dataType": 1,
+					"notes": "",
+					"id": "_boqt3aj9f",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "PowerOn",
+					"siblingId": "_r3sy7k0lh",
+					"dataType": 1,
+					"notes": "",
+					"id": "_lnsc8lps8",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "PowerOff",
+					"siblingId": "_a5sod263t",
+					"dataType": 1,
+					"notes": "",
+					"id": "_h5glwd2ei",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_x89mhvqub",
+					"dataType": 0,
+					"notes": "",
+					"id": "_xy0th9xqc",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_87fzs6r78",
+					"dataType": 0,
+					"notes": "",
+					"id": "_lytdz3cxq",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_sykcywgdz",
+					"dataType": 0,
+					"notes": "",
+					"id": "_79bz2khdv",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_aysk0xqi8",
+					"dataType": 0,
+					"notes": "",
+					"id": "_ly33xjzsg",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_x9spxu2do",
+					"dataType": 0,
+					"notes": "",
+					"id": "_rxyhx4ap8",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_3gdlcnk70",
+					"dataType": 0,
+					"notes": "",
+					"id": "_5vdp2jz10",
+					"parentId": "_ouhifiuti",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

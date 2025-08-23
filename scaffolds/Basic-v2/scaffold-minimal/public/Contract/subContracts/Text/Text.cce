@@ -1,0 +1,208 @@
+{
+	"Errors": [],
+	"id": "_pgtotfdz7",
+	"name": "Text",
+	"description": "TextControlSubPage",
+	"company": "",
+	"client": "",
+	"author": "",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_pgtotfdz7",
+			"id": "_ycm9ordja",
+			"name": "Component",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Line1Text",
+					"siblingId": "_9xhg95nof",
+					"dataType": 3,
+					"notes": "",
+					"id": "_73mv5q7gu",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Line2Text",
+					"siblingId": "_dpdg9f338",
+					"dataType": 3,
+					"notes": "",
+					"id": "_4mkfgfzkw",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Line3Text",
+					"siblingId": "_84rh5wibe",
+					"dataType": 3,
+					"notes": "",
+					"id": "_tbi97t7l3",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Line4Text",
+					"siblingId": "_8am0rkst6",
+					"dataType": 3,
+					"notes": "",
+					"id": "_4atevwtuf",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "HeaderText",
+					"siblingId": "_eaq9viety",
+					"dataType": 3,
+					"notes": "",
+					"id": "_ffoqe2pm5",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "DeviceConnectionOptionIcon1",
+					"siblingId": "_l5hog7nzt",
+					"dataType": 2,
+					"notes": "",
+					"id": "_n4vymh7xd",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "DeviceConnectionOptionIcon2",
+					"siblingId": "_9gsk32dk3",
+					"dataType": 2,
+					"notes": "",
+					"id": "_raplnyq1o",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "DeviceConnectionOptionIcon3",
+					"siblingId": "_voivs0cwn",
+					"dataType": 2,
+					"notes": "",
+					"id": "_i4nozlrpv",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "DeviceConnectionOptionIcon4",
+					"siblingId": "_369nkiuo1",
+					"dataType": 2,
+					"notes": "",
+					"id": "_avkk6l0x6",
+					"parentId": "_ycm9ordja",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_73mv5q7gu",
+					"dataType": 0,
+					"notes": "",
+					"id": "_9xhg95nof",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_4mkfgfzkw",
+					"dataType": 0,
+					"notes": "",
+					"id": "_dpdg9f338",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_tbi97t7l3",
+					"dataType": 0,
+					"notes": "",
+					"id": "_84rh5wibe",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_4atevwtuf",
+					"dataType": 0,
+					"notes": "",
+					"id": "_8am0rkst6",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ffoqe2pm5",
+					"dataType": 0,
+					"notes": "",
+					"id": "_eaq9viety",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_n4vymh7xd",
+					"dataType": 0,
+					"notes": "",
+					"id": "_l5hog7nzt",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_raplnyq1o",
+					"dataType": 0,
+					"notes": "",
+					"id": "_9gsk32dk3",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_i4nozlrpv",
+					"dataType": 0,
+					"notes": "",
+					"id": "_voivs0cwn",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_avkk6l0x6",
+					"dataType": 0,
+					"notes": "",
+					"id": "_369nkiuo1",
+					"parentId": "_ycm9ordja",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

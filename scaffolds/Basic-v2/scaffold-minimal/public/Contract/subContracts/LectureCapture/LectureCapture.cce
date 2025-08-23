@@ -1,0 +1,588 @@
+{
+	"Errors": [],
+	"id": "_xq97apra9",
+	"name": "LectureCapture",
+	"description": "LectureCaptureControl",
+	"company": "",
+	"client": "",
+	"author": "",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_xq97apra9",
+			"id": "_sxr5r5ipf",
+			"name": "Control",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_tniyqzo1m",
+					"dataType": 1,
+					"notes": "",
+					"id": "_8s9dpj6wa",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_1webs34ln",
+					"dataType": 1,
+					"notes": "",
+					"id": "_h3z3w9o98",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "NumberOfRecordersAvailable",
+					"siblingId": "_rttf0726y",
+					"dataType": 2,
+					"notes": "",
+					"id": "_3p1zypkm4",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_e4pwcdwgl",
+					"dataType": 1,
+					"notes": "",
+					"id": "_vwyvkx703",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_4eqhz7m3j",
+					"dataType": 1,
+					"notes": "",
+					"id": "_dygms9745",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_fg210rkah",
+					"dataType": 1,
+					"notes": "",
+					"id": "_zii1bhjk2",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_v4bixvogz",
+					"dataType": 1,
+					"notes": "",
+					"id": "_t8ef6poen",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_k8p80fh2g",
+					"dataType": 1,
+					"notes": "",
+					"id": "_3t2m709ob",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_6uhi67m5s",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ax8jxclfg",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_qzc91awgm",
+					"dataType": 1,
+					"notes": "",
+					"id": "_nq6akisey",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_37jwmks06",
+					"dataType": 1,
+					"notes": "",
+					"id": "_02yaw8nob",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "ChannelPreviewURLFB",
+					"siblingId": "_qblgcbb1t",
+					"dataType": 3,
+					"notes": "",
+					"id": "_pt9kk4hj9",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_dn97fxlu3",
+					"dataType": 1,
+					"notes": "",
+					"id": "_psnf8h1pf",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_rqnysw5fs",
+					"dataType": 1,
+					"notes": "",
+					"id": "_yg9tqdtr0",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_w5nam6qmn",
+					"dataType": 1,
+					"notes": "",
+					"id": "_rdxiv4n9q",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_g40upa7la",
+					"dataType": 1,
+					"notes": "",
+					"id": "_kkwqqj1ws",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_dhagiqsex",
+					"dataType": 1,
+					"notes": "",
+					"id": "_5xrcvgxcb",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_l5k8550ef",
+					"dataType": 1,
+					"notes": "",
+					"id": "_vvpn0569i",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_m41dgh3xy",
+					"dataType": 1,
+					"notes": "",
+					"id": "_2csubpjul",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_lz4qjcnnd",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ii29w4mb9",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "UpcomingEventNameFB",
+					"siblingId": "_8h9z2vnee",
+					"dataType": 3,
+					"notes": "",
+					"id": "_yk3b06634",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "UpcomingEventCountdownFB",
+					"siblingId": "_e7r1e80tg",
+					"dataType": 3,
+					"notes": "",
+					"id": "_9hqc5sb2v",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "CurrentEventNameFB",
+					"siblingId": "_f5s8fejvl",
+					"dataType": 3,
+					"notes": "",
+					"id": "_jhkkcqtmz",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "UsedSpaceSerial",
+					"siblingId": "_74afh19o1",
+					"dataType": 3,
+					"notes": "In MB",
+					"id": "_cnv0uzws9",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "TotalSpaceSerial",
+					"siblingId": "_p74dqy5x7",
+					"dataType": 3,
+					"notes": "In MB",
+					"id": "_68bswjgw8",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "FreeSpaceSerial",
+					"siblingId": "_u7lh1eezw",
+					"dataType": 3,
+					"notes": "In MB",
+					"id": "_g2ag3ubfv",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "IsCommunicatingWdevice",
+					"siblingId": "_6bjb94m8v",
+					"dataType": 1,
+					"notes": "",
+					"id": "_mfgfms9de",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_5erz3007p",
+					"dataType": 1,
+					"notes": "",
+					"id": "_va52yahel",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "StartRecording",
+					"siblingId": "_8s9dpj6wa",
+					"dataType": 1,
+					"notes": "",
+					"id": "_tniyqzo1m",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StopRecording",
+					"siblingId": "_h3z3w9o98",
+					"dataType": 1,
+					"notes": "",
+					"id": "_1webs34ln",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_3p1zypkm4",
+					"dataType": 0,
+					"notes": "",
+					"id": "_rttf0726y",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StartRecordingOnChannel1",
+					"siblingId": "_vwyvkx703",
+					"dataType": 1,
+					"notes": "",
+					"id": "_e4pwcdwgl",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StartRecordingOnChannel2",
+					"siblingId": "_dygms9745",
+					"dataType": 1,
+					"notes": "",
+					"id": "_4eqhz7m3j",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StartRecordingOnChannel3",
+					"siblingId": "_zii1bhjk2",
+					"dataType": 1,
+					"notes": "",
+					"id": "_fg210rkah",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StartRecordingOnChannel4",
+					"siblingId": "_t8ef6poen",
+					"dataType": 1,
+					"notes": "",
+					"id": "_v4bixvogz",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StopRecordingOnChannel1",
+					"siblingId": "_3t2m709ob",
+					"dataType": 1,
+					"notes": "",
+					"id": "_k8p80fh2g",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StopRecordingOnChannel2",
+					"siblingId": "_ax8jxclfg",
+					"dataType": 1,
+					"notes": "",
+					"id": "_6uhi67m5s",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StopRecordingOnChannel3",
+					"siblingId": "_nq6akisey",
+					"dataType": 1,
+					"notes": "",
+					"id": "_qzc91awgm",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StopRecordingOnChannel4",
+					"siblingId": "_02yaw8nob",
+					"dataType": 1,
+					"notes": "",
+					"id": "_37jwmks06",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_pt9kk4hj9",
+					"dataType": 0,
+					"notes": "",
+					"id": "_qblgcbb1t",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "CurrentEventPause",
+					"siblingId": "_psnf8h1pf",
+					"dataType": 1,
+					"notes": "",
+					"id": "_dn97fxlu3",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "CurrentEventResume",
+					"siblingId": "_yg9tqdtr0",
+					"dataType": 1,
+					"notes": "",
+					"id": "_rqnysw5fs",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "CurrentEventStop",
+					"siblingId": "_rdxiv4n9q",
+					"dataType": 1,
+					"notes": "",
+					"id": "_w5nam6qmn",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "CurrentEventExtend",
+					"siblingId": "_kkwqqj1ws",
+					"dataType": 1,
+					"notes": "",
+					"id": "_g40upa7la",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_5xrcvgxcb",
+					"dataType": 0,
+					"notes": "",
+					"id": "_dhagiqsex",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_vvpn0569i",
+					"dataType": 0,
+					"notes": "",
+					"id": "_l5k8550ef",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_2csubpjul",
+					"dataType": 0,
+					"notes": "",
+					"id": "_m41dgh3xy",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ii29w4mb9",
+					"dataType": 0,
+					"notes": "",
+					"id": "_lz4qjcnnd",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_yk3b06634",
+					"dataType": 0,
+					"notes": "",
+					"id": "_8h9z2vnee",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_9hqc5sb2v",
+					"dataType": 0,
+					"notes": "",
+					"id": "_e7r1e80tg",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_jhkkcqtmz",
+					"dataType": 0,
+					"notes": "",
+					"id": "_f5s8fejvl",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_cnv0uzws9",
+					"dataType": 0,
+					"notes": "",
+					"id": "_74afh19o1",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_68bswjgw8",
+					"dataType": 0,
+					"notes": "",
+					"id": "_p74dqy5x7",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_g2ag3ubfv",
+					"dataType": 0,
+					"notes": "",
+					"id": "_u7lh1eezw",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_mfgfms9de",
+					"dataType": 0,
+					"notes": "",
+					"id": "_6bjb94m8v",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "StartURLVideoFeed",
+					"siblingId": "_va52yahel",
+					"dataType": 1,
+					"notes": "",
+					"id": "_5erz3007p",
+					"parentId": "_sxr5r5ipf",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

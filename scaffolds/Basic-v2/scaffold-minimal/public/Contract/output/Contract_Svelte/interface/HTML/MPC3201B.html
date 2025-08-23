@@ -1,0 +1,55 @@
+<template id="Contract_Svelte.Main.MPC3201B">
+	<div id="Main.MPC3201B">
+	 		<ch5-button sendEventOnClick="MPC3201B.Power">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.VolumeUp">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.VolumeDown">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.Mute" receiveStateSelected="MPC3201B.MuteFb">
+        	</ch5-button>
+	 		<ch5-slider receiveStateValue="MPC3201B.PowerState" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider receiveStateValue="MPC3201B.Bargraph" nohandle>
+        	</ch5-slider>
+	 		<ch5-slider sendEventOnChange="MPC3201B.Source" receiveStateValue="MPC3201B.SourceFb">
+        	</ch5-slider>
+	 		<ch5-button receiveStateSelected="MPC3201B.StartPageActive" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.StartPageButton">
+        	</ch5-button>
+	 	<span data-ch5-textcontent="MPC3201B.RoomName">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source1Name">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source2Name">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source3Name">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source4Name">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source5Name">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source6Name">Label</span>
+	 		<ch5-slider receiveStateValue="MPC3201B.SourceBtnCount" nohandle>
+        	</ch5-slider>
+	 		<ch5-button receiveStateSelected="MPC3201B.PowerIsOn" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.ScreenUp">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.ScreenDown">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="MPC3201B.ProjectorWarming" disabled>
+        	</ch5-button>
+	 	<span data-ch5-textcontent="MPC3201B.LampHours">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source7Name">Label</span>
+	 	<span data-ch5-textcontent="MPC3201B.Source8Name">Label</span>
+	 		<ch5-button receiveStateSelected="MPC3201B.CameraControl" disabled>
+        	</ch5-button>
+	 	<span data-ch5-textcontent="MPC3201B.HelpText">Label</span>
+	 		<ch5-button receiveStateSelected="MPC3201B.ScreenControlNeeded" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="MPC3201B.MicrophoneRequired" disabled>
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="MPC3201B.MicrophoneNotRequired" disabled>
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.MicrophoneMakeActive">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MPC3201B.MicrophoneMakeInactive">
+        	</ch5-button>
+	 </div>
+</template>

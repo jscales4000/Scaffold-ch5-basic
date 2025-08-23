@@ -1,0 +1,57 @@
+<template id="Contract_Svelte.Control.MediaPlayer">
+	<ch5-list id="Control.MediaPlayer" indexId="idx1" size="8" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].up">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].down">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].left">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].right">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].OK">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Back">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].TV">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].PlayPause">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Pause">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Play">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Menu">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].SmartTVControl">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Red">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Blue">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Green">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Yellow">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Guide">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Info">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].Favorites">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].PowerOn">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="MediaPlayer[{{idx1}}].PowerOff">
+        	</ch5-button>
+	 		<ch5-button receiveStateSelected="MediaPlayer[{{idx1}}].MediaPlayerIsPlaying" disabled>
+        	</ch5-button>
+	 	<span data-ch5-textcontent="MediaPlayer[{{idx1}}].MediaPlayerCurrentTime">Label</span>
+	 	<span data-ch5-textcontent="MediaPlayer[{{idx1}}].MediaPlayerDuration">Label</span>
+	 		<ch5-slider receiveStateValue="MediaPlayer[{{idx1}}].MediaPlayerStatus" nohandle>
+        	</ch5-slider>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>
