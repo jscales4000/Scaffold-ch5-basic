@@ -1,1 +1,0 @@
-36,61975,76934190723,-;type=1400 audit(1755803102.674:135747): avc: denied { write } for comm=6E65746C696E6B20736F636B6574 name="ipacm_log_file" dev="tmpfs" ino=6996 scontext=u:r:ipacm:s0 tcontext=u:object_r:ipacm_socket:s0 tclass=sock_file permissive=0

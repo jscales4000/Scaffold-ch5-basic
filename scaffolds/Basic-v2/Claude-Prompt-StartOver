@@ -20,7 +20,7 @@
   - Follow exact dependency installation from documentation
   - Use vite-plugin-static-copy for CrComLib
   - Proper contract.cse2j structure for signal mapping
-  - WebXPanel configuration: IP 192.168.2.153, ID 0x03
+  - WebXPanel configuration: local control-system host, ID 0x03
 
   ## Desired Scaffold Features:
   - Basic volume controls (up/down/mute)

@@ -56,7 +56,7 @@ scaffold-minimal/
 Update in `src/main.ts`:
 ```typescript
 const config = {
-  host: "192.168.2.153",  // Your control system IP
+  host: "control-system.local",  // Replace with your control system IP
   ipId: "0x03",           // Your touch panel ID
   roomId: "",
   authToken: ""

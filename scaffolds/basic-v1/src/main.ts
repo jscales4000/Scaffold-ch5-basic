@@ -10,7 +10,7 @@ const initializeWebXPanel = () => {
     // Only initialize if we're in a browser (not on touch panel)
     if (isActive) {
       const config: Partial<typeof WebXPanelConfigParams> = {
-        host: "192.168.2.153", // Control system IP from logs
+        host: "control-system.local", // Placeholder — set to your Crestron processor IP or hostname
         ipId: "0x03", // Touch panel connects to ID 3 (0x03)
         roomId: "",
         authToken: "",

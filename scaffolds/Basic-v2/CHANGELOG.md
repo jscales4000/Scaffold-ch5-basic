@@ -39,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.5.1] - 2025-05-22
 
 ### Changed
-- Updated WebXPanel IP address configuration to 192.168.2.151
+- Updated WebXPanel host configuration
 - Fixed script loading in index.html to properly handle Crestron libraries
 - Generated CH5 archive for deployment to touch panels
 

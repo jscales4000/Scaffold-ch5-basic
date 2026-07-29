@@ -7,6 +7,9 @@ dist/
 ch5z/
 *.ch5z
 panel.zip
+vite.config.*.timestamp-*
+*.timestamp-*.mjs
+*.timestamp-*.js
 
 # Development files
 .vscode/
@@ -19,8 +22,24 @@ panel.zip
 Thumbs.db
 *.tmp
 
-# Crestron specific
+# Crestron specific — never commit real device logs or crash dumps
 Temp-Debug/
+Temp-Debud/
+TS*Logs/
+extracted_logs/
+tombstones/
+tombstone_*
+*.enc
+device_json_key.*
+MsgLog*.txt
+MsgLog*.temp
+kernelLog
+sysLog*
+errlog
+boot_timestamp
+boots/
+latest_logs/
+data/tombstones/
 logs/
 
 # Environment files

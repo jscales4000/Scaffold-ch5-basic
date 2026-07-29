@@ -32,7 +32,7 @@
 - **Hurdle:** Resolved dependency conflicts with `--legacy-peer-deps`.
 
 ### 6. **Configuration & Integration**
-- **WebXPanel:** Configured for IP 192.168.2.151, IPID 0x04 in `src/main.ts` for bidirectional Crestron communication.
+- **WebXPanel:** Configured for a local control-system host and IPID 0x04 in `src/main.ts` for bidirectional Crestron communication.
 - **Contract:** Used `.cse2j` file for signal mapping.
 
 ---
