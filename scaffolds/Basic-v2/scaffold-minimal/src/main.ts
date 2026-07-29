@@ -7,7 +7,7 @@ const initializeWebXPanel = () => {
   try {
     const { isActive, WebXPanel, WebXPanelConfigParams } = getWebXPanel(!runsInContainerApp());
     const config: Partial<typeof WebXPanelConfigParams> = {
-      host: "[REDACTED-IP]",
+      host: "control-system.local",
       ipId: "0x03",
       roomId: "",
       authToken: ""

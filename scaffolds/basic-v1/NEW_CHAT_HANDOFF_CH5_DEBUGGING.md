@@ -22,7 +22,7 @@
 ## 🔍 **Investigation Results**
 
 ### **Log Analysis Completed**
-**Source**: `Temp-Debud\logs_[REDACTED-IP]_2025.8.21_10.41.15.tgz`
+**Source**: local device log tarball (redacted)
 
 **Key Findings**:
 1. **CH5Z Loading**: ✅ Successful (`svelte-scaffold-basic-1.ch5z` extracts and loads)

@@ -165,7 +165,7 @@ const initializeWebXPanel = () => {
   try {
     const { isActive, WebXPanel, WebXPanelConfigParams } = getWebXPanel(!runsInContainerApp());
     const config: Partial<typeof WebXPanelConfigParams> = {
-      host: "[REDACTED-IP]", // User's control system IP
+      host: "control-system.local", // Replace with your control system IP
       ipId: "0x03",          // User's touch panel ID
       roomId: "",            // Usually empty
       authToken: ""          // Usually empty
